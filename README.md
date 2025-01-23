@@ -109,5 +109,5 @@ Other        18 mins         ▒░░░░░░░░░░░░░░░░
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=KhrulSergey&show_icons=true&locale=en" alt="KhrulSergey" style="max-width: 40%; height: auto;" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KhrulSergey" alt="KhrulSergey" style="max-width: 42%; height: auto;" />
+ <!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=KhrulSergey" alt="KhrulSergey" style="max-width: 42%; height: auto;" /> -->
 </p>
