@@ -28,7 +28,7 @@ width="30">
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://t.me/khrulsa" target="blank" style="margin-right: 20px" >
+  <a href="https://t.me/khrulsa" target="blank" style="margin-right: 40px" >
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png" alt="https://t.me/khrulsa" height="40" />
   </a>
   <a href="https://linkedin.com/in/khrulsergey/" target="blank">
