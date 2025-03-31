@@ -1,8 +1,8 @@
 ﻿[
   {
     "id": 1,
-    "name": "Cryptocurrency multichain memepad launchpad for Telegram mini-app",
-    "domain": "Cryptocurrency, Web3, Telegram Mini-App",
+    "name": "Cryptocurrency multichain meme token launchpad for Telegram Mini App",
+    "domain": "Cryptocurrency, Web3, Telegram Mini App",
     "responsibilities": [
       "Architect",
       "TechLead",
@@ -106,7 +106,7 @@
   },
   {
     "id": 4,
-    "name": "Trading arbitrage bot for CEX-DEX transactions",
+    "name": "HFT Trading bot for CEX-DEX arbitrage",
     "domain": "Trading, Arbitrage, Cryptocurrency, CEX, DEX",
     "responsibilities": [
       "Architect",
@@ -291,7 +291,7 @@
   },
   {
     "id": 10,
-    "name": "DEX valuation tool",
+    "name": "Cryptocurrency Exchanges valuation tool",
     "domain": "DEX, Finance, Valuation",
     "responsibilities": [
       "Full Stack Developer"
@@ -314,7 +314,7 @@
   },
   {
     "id": 11,
-    "name": "SaaS platform digitizing concrete construction",
+    "name": "SaaS platform for digitizing concrete delivery and management for construction sites",
     "domain": "SaaS, Construction, Blockchain",
     "responsibilities": [
       "Full Stack Developer"

@@ -1,11 +1,12 @@
 import ProjectData from '../model/ProjectData';
 
-const imagePath = '/media/images/';
-const imagePrefix = 'project-%s.png';
+const projectPrefix = 'project-%s';
 const stackIncludeWords = ['All', 'Java', 'PostgreSQL', 'Spring', 'TypeScript', 'Cosmos SDK', 'GoLang', 'Telegram',
     'Swagger', 'JavaScript', 'SQL', 'Reactor', 'GraphQL', 'React', 'Redis', 'MySQL', 'Kafka', 'Solidity',
-    'WebSocket','ML', 'RxJava',  'GRPC', 'AWS', 'Python', 'Angular', 'Kotlin', 'WebFlux', 'Kubernetes',
-    'ClickHouse',  'InfluxDB', 'Stellar', '3D', 'Blockchain', 'MongoDb', 'ThreeJS']
+    'WebSocket', 'ML', 'RxJava', 'GRPC', 'AWS', 'Python', 'Angular', 'Kotlin', 'WebFlux', 'Kubernetes',
+    'ClickHouse', 'InfluxDB', 'Stellar', '3D', 'Blockchain', 'MongoDb', 'ThreeJS']
+
+declare const require: any;
 
 class ProjectService {
     private static instance: ProjectService | null = null;
@@ -42,7 +43,7 @@ class ProjectService {
             .sort(([, countA], [, countB]) => countB - countA)
             .filter((stack, count) => count > 1)
             .map(([stack]) => stack);
-        console.log(stacks)
+        // console.log(stacks)
         return stacks
     }
 
@@ -85,7 +86,7 @@ class ProjectService {
                     id: item.id,
                     name: item.name,
                     description: item.description || '',
-                    image: item.image || imagePath + imagePrefix.replace('%s', item.id),
+                    images: item.image || this.loadImages(item.id),
                     link: item.link || '',
                     tags: item.domain.split(',').map((tag: string) => tag.trim()), // Convert domain to tags
                     responsibilities: item.responsibilities,
@@ -106,12 +107,26 @@ class ProjectService {
         }
     }
 
+    loadImages(projectId: number): string[] {
+        const projectFolder = projectPrefix.replace('%s', projectId.toString());
+        const imageContext = require.context('../../public/media/images', true, /\.(png|gif|jpe?g|JPG|svg|ico)$/);
+        const images: string[] = [];
+        console.log("imageContext:", imageContext.keys)
+        imageContext.keys().filter((key: string) => key.startsWith('./' + projectFolder))
+            .forEach((key: string) => {
+                images.push(imageContext(key));
+        });
+        console.log(`${projectId} loaded image:`, images)
+        return images;
+    }
+
     async getProjects(): Promise<ProjectData[]> {
         return await this.initialize().then(() => this.projects);
     }
 
     async getProjectsStack(): Promise<string[]> {
         return Promise.resolve(stackIncludeWords)
+        //analyze all stack loaded from project to decide what to include in stackIncludeWords
         // return await this.initialize().then(() => this.projectsStack);
     }
 }

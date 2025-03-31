@@ -86,7 +86,7 @@ function Project() {
                     <div className="project" key={project.id}>
                         <div className="image-container">
                             <img
-                                src={project.image}
+                                src={project.images[0]}
                                 className="zoom"
                                 alt="thumbnail"
                                 width="100%"
@@ -108,7 +108,7 @@ function Project() {
                             </div>
                         </div>
                         <a href={project.link} target="_blank" rel="noreferrer">
-                            <h2>{project.name}</h2>
+                            <h2>{project.id}-{project.name}</h2>
                         </a>
                         <p>{project.description}</p>
                     </div>

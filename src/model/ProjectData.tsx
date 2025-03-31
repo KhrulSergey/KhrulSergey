@@ -2,7 +2,7 @@ interface ProjectData {
   id: number;
   name: string;
   description: string;
-  image: string;
+  images: string[];
   link: string;
   tags: string[];
   responsibilities: string[];
