@@ -111,12 +111,10 @@ class ProjectService {
         const projectFolder = projectPrefix.replace('%s', projectId.toString());
         const imageContext = require.context('../../public/media/images', true, /\.(png|gif|jpe?g|JPG|svg|ico)$/);
         const images: string[] = [];
-        console.log("imageContext:", imageContext.keys)
         imageContext.keys().filter((key: string) => key.startsWith('./' + projectFolder))
             .forEach((key: string) => {
                 images.push(imageContext(key));
         });
-        console.log(`${projectId} loaded image:`, images)
         return images;
     }
 

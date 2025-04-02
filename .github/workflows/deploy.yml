@@ -22,7 +22,11 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build
+        run: |          
+          cp .env.example .env
+          sed -i "s/ga-measurement-id.*/ga-measurement-id${{ secrets.GOOGLE_TRACKING_ID }}/" .env
+          sed -i "s/clarity-id.*/clarity-id${{ secrets.CLARITY_ID }}/" .env
+          npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
