@@ -8,11 +8,12 @@ function Project() {
     const [projects, setProjects] = useState<ProjectData[]>([]);
     const [filterButtons, setFilterButtons] = useState<string[]>([]);
     const [filteredProjects, setFilteredProjects] = useState<ProjectData[]>([]);
+    const [activeFilter, setActiveFilter] = useState<string>('All'); // Track the active filter
 
     useEffect(() => {
         projectService.getProjects().then((data: ProjectData[]) => {
             setProjects(data);
-            setFilteredProjects(data)
+            setFilteredProjects(data);
         });
     }, [projectService]);
 
@@ -20,29 +21,37 @@ function Project() {
         projectService.getProjectsStack().then(setFilterButtons);
     }, [projectService]);
 
+    const cleanSearchInput = () => {
+        const searchInput = document.querySelector('.search-input') as HTMLInputElement;
+        searchInput.value = "";
+    }
+
     const filterProjects = useCallback(
         (pType: string) => {
             if (pType === 'All') {
                 setFilteredProjects(projects);
             } else {
                 const filtered = projects.filter((project) =>
-                    project.technologies.some(tech =>
+                    project.technologies.some((tech) =>
                         tech.toLowerCase().includes(pType.toLowerCase())
                     )
                 );
                 setFilteredProjects(filtered);
             }
+            cleanSearchInput();
         },
         [projects]
     );
 
     const searchProjects = useCallback(
         (e: any) => {
-            const searchTerm = e.target.value
-            const searched = projects.filter((project) =>
-                project.name.toLowerCase().includes(searchTerm.toLowerCase())
-                || project.description.toLowerCase().includes(searchTerm.toLowerCase())
+            const searchTerm = e.target.value;
+            const searched = projects.filter(
+                (project) =>
+                    project.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                    project.description.toLowerCase().includes(searchTerm.toLowerCase())
             );
+            setActiveFilter("")
             setFilteredProjects(searched);
         },
         [projects]
@@ -50,8 +59,9 @@ function Project() {
 
     const handleFilter = useCallback(
         (e: React.MouseEvent<HTMLButtonElement>) => {
-            const typePro = (e.target as HTMLButtonElement).value;
+            const typePro = (e.currentTarget as HTMLButtonElement).value;
             filterProjects(typePro);
+            setActiveFilter(typePro); // Update the active filter
         },
         [filterProjects]
     );
@@ -61,19 +71,16 @@ function Project() {
             <h1>Personal Projects</h1>
             <div className="search-grid">
                 <div className="search-container">
-                    <input
-                        type="text"
-                        placeholder="Search projects..."
-                        onChange={searchProjects}
-                    />
+                    <input className="search-input" type="text" placeholder="Search projects..."
+                           onChange={searchProjects}/>
                 </div>
                 <div className="filter-container">
                     {filterButtons.map((type, index) => (
                         <button
-                            className="filter-buttons"
                             key={index}
                             value={type}
                             onClick={handleFilter}
+                            className={`filter-button ${activeFilter === type ? 'active' : ''}`} // Add active class conditionally
                         >
                             {type}
                         </button>
@@ -85,12 +92,7 @@ function Project() {
                 {filteredProjects.map((project) => (
                     <div className="project" key={project.id}>
                         <div className="image-container">
-                            <img
-                                src={project.images[0]}
-                                className="zoom"
-                                alt="thumbnail"
-                                width="100%"
-                            />
+                            <img src={project.images[0]} className="zoom" alt="thumbnail" width="100%"/>
                         </div>
                         <a className="details" href={project.link} target="_blank" rel="noreferrer">
                             <h2>{project.name}</h2>
@@ -102,7 +104,9 @@ function Project() {
                                         <li key={index}>{contribution}</li>
                                     ))}
                                 </ul>
-                                <h3>Status: <div className="inline">{project.status}</div></h3>
+                                <h3>
+                                    Status: <div className="inline">{project.status}</div>
+                                </h3>
                                 <h3>Responsibilities:</h3>
                                 <ul>
                                     {project.responsibilities.map((responsibility, index) => (

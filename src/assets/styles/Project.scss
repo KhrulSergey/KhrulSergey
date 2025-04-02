@@ -5,8 +5,78 @@
   text-align: left;
 }
 
-.projects-container .search-grid {
+.search-grid {
   margin-bottom: 20px;
+  display: flex; /* Make search-grid a flex container */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  align-items: center; /* Vertically align items */
+}
+
+.search-container {
+  flex: 0 0 20%; /* Occupy 25% of the width on wide screens */
+  padding: 0;
+  margin-right: 15px; /* Add some space between search and filter */
+  align-self: flex-start;
+  margin-top: 3.5px;
+  input{
+    margin-top: 0px;
+    margin-bottom: 4px;
+    width: 100%;
+    padding: 5px 5px; /* Padding around text */
+    font-size: 0.8rem;
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #939292;
+  }
+}
+
+.filter-container {
+  flex: 0 0 75%; /* Occupy 75% of the width on wide screens */
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+
+.filter-button {
+  margin-right: 6px;
+  margin-top: 0px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+
+  background-color: #d2e5fe;
+  border: 1px solid #939292;
+
+  padding: 5px 5px;
+  font-size: 0.8rem;
+
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.2s ease; /* Smooth background color transition on hover */
+  opacity: 0.8;
+  white-space: nowrap; /* Prevent text from wrapping */
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
+
+  &:hover {
+    opacity: 1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+  }
+
+  &.active {
+    font-weight: 700; /* Slightly bolder text when active */
+    opacity: 1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Add box shadow on active */
+  }
+}
+
+.dark-mode .filter-button {
+  background-color: #9abfee;
+  border: 1px solid #777; /* Thin dark gray border */
+
+  box-shadow: 0px 3px 4px rgb(84, 81, 81);
+
+  &:hover, &.active {
+    box-shadow: 0px 4px 6px rgb(96, 96, 100);
+  }
 }
 
 .projects-container .projects-grid {
@@ -38,7 +108,7 @@
 }
 
 .zoom:hover {
-  transform: scale(1.05);
+  transform: scale(1.30);
 }
 
 .project-description {
@@ -112,6 +182,11 @@
   @media (max-width: 1000px) {
     .projects-container .projects-grid {
       grid-template-columns: repeat(2, 1fr);
+    }
+
+    .search-container,
+    .filter-container {
+      flex: 0 0 100%; /* Occupy full width on narrow screens */
     }
   }
   @media (max-width: 700px) {
