@@ -152,7 +152,7 @@
   },
   {
     "id": 5,
-    "name": "Statistical platform for a multichain DEX - info.blueshift.fi",
+    "name": "Statistical platform for a multichain DEX",
     "domain": "Cryptocurrency, DEX, Statistics, Analytics",
     "responsibilities": [
       "TechLead",
@@ -167,6 +167,7 @@
       "Kafka",
       "PostgreSQL"
     ],
+    "link": "https://info.blueshift.fi",
     "status": "Functional v1",
     "supported_chains": null,
     "partnerships": null,
@@ -203,7 +204,7 @@
   },
   {
     "id": 7,
-    "name": "Data-driven system for analyzing DAO metrics - daopulse.org",
+    "name": "Data-driven system for analyzing DAO metrics",
     "domain": "DAO, Analytics, Data Aggregation",
     "responsibilities": [
       "TechLead",
@@ -217,6 +218,7 @@
       "GraphQL client",
       "PostgreSQL"
     ],
+    "link": "https://daopulse.org",
     "status": "Functional v1",
     "supported_chains": null,
     "partnerships": null,
@@ -291,7 +293,7 @@
   },
   {
     "id": 10,
-    "name": "Cryptocurrency Exchanges valuation tool",
+    "name": "Cryptocurrency dApp valuation tool",
     "domain": "DEX, Finance, Valuation",
     "responsibilities": [
       "Full Stack Developer"

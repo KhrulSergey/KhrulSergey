@@ -91,7 +91,11 @@ function Project() {
                                 alt="thumbnail"
                                 width="100%"
                             />
+                        </div>
+                        <a className="details" href={project.link} target="_blank" rel="noreferrer">
+                            <h2>{project.name}</h2>
                             <div className="tooltip">
+                                <h3>ID:{project.id}</h3>
                                 <h3>Key Contributions:</h3>
                                 <ul>
                                     {project.keyContributions.map((contribution, index) => (
@@ -106,9 +110,6 @@ function Project() {
                                     ))}
                                 </ul>
                             </div>
-                        </div>
-                        <a href={project.link} target="_blank" rel="noreferrer">
-                            <h2>{project.id}-{project.name}</h2>
                         </a>
                         <p>{project.description}</p>
                     </div>
