@@ -94,28 +94,43 @@ function Project() {
                         <div className="image-container">
                             <img src={project.images[0]} className="zoom" alt="thumbnail" width="100%"/>
                         </div>
-                        <a className="details" href={project.link} target="_blank" rel="noreferrer">
-                            <h2>{project.name}</h2>
-                            <div className="tooltip">
-                                <h3>ID:{project.id}</h3>
-                                <h3>Key Contributions:</h3>
-                                <ul>
-                                    {project.keyContributions.map((contribution, index) => (
-                                        <li key={index}>{contribution}</li>
-                                    ))}
-                                </ul>
-                                <h3>
-                                    Status: <div className="inline">{project.status}</div>
-                                </h3>
-                                <h3>Responsibilities:</h3>
-                                <ul>
-                                    {project.responsibilities.map((responsibility, index) => (
-                                        <li key={index}>{responsibility}</li>
-                                    ))}
-                                </ul>
+                        <div className="details">
+                            <div className="project-name">
+                                {project.link ? (
+                                    <a href={project.link} target="_blank" rel="noreferrer">
+                                        <h2>{project.name}</h2>
+                                    </a>
+                                ) : (
+                                    <h2>{project.name}</h2>
+                                )}
                             </div>
-                        </a>
-                        <p>{project.description}</p>
+                            <div className="info-icon-container">
+                                <div className="info-icon">i</div>
+                                <div className="tooltip">
+                                    <h3>ID:{project.id}</h3>
+                                    <h3>Key Contributions:</h3>
+                                    <ul>
+                                        {project.keyContributions.map((contribution, index) => (
+                                            <li key={index}>{contribution}</li>
+                                        ))}
+                                    </ul>
+                                    <h3>
+                                        Status: <div className="inline">{project.status}</div>
+                                    </h3>
+                                    <h3>Responsibilities:</h3>
+                                    <ul>
+                                        {project.responsibilities.map((responsibility, index) => (
+                                            <li key={index}>{responsibility}</li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='technologies'>
+                            {project.technologies.map((contribution, index) => (
+                                <div className="technology" key={index}>{contribution}</div>
+                            ))}
+                        </div>
                     </div>
                 ))}
             </div>

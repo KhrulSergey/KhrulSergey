@@ -18,7 +18,8 @@
   margin-right: 15px; /* Add some space between search and filter */
   align-self: flex-start;
   margin-top: 3.5px;
-  input{
+
+  input {
     margin-top: 0px;
     margin-bottom: 4px;
     width: 100%;
@@ -90,16 +91,6 @@
   position: relative;
 }
 
-.project h2 {
-  font-size: medium;
-}
-
-.project h2:hover {
-  text-decoration: underline;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-  border-color 0.15s ease-in-out;
-}
-
 .zoom {
   border-radius: 5px;
   transition: transform 0.2s;
@@ -134,6 +125,61 @@
   display: block;
 }
 
+.details {
+  display: flex; /* Make details a flex container */
+  align-items: center; /* Vertically align items */
+  width: 100%;
+  justify-content: flex-start; /* Distribute space between project name and icon */
+  flex-wrap: nowrap;
+}
+
+.project-name {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: fit-content;
+  max-width: 95%;
+  text-overflow: ellipsis;
+}
+
+.project-name h2 {
+  max-width: 95%;
+  width: fit-content;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: medium;
+}
+
+.project-name a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.info-icon-container {
+  display: inline-flex; /* Make the container an inline-flex */
+  align-items: center; /* Vertically align items */
+  position: relative; /* Position the tooltip relative to this container */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  flex-shrink: 0;
+}
+
+.info-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #d2e5fe;
+  border: 1px solid #939292;
+  font-size: 10px;
+  font-weight: bold;
+  color: #444;
+  cursor: pointer;
+}
+
 .tooltip {
   position: absolute;
   background-color: #7fa4d0;
@@ -144,16 +190,18 @@
   transition: opacity 0.8s;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 30%;
+  bottom: 100%;
+  margin-bottom: 10px;
   width: 35vw;
   max-height: 300px;
   overflow-y: auto;
   pointer-events: none;
 }
 
-.details:hover .tooltip {
+.info-icon-container:hover .tooltip,
+.info-icon-container:focus-within .tooltip {
   opacity: 0.9;
-  pointer-events: auto;
+  pointer-events: auto; /* Allow tooltip to be interactive */
 }
 
 .tooltip h3 {
