@@ -115,22 +115,18 @@ function Project() {
                             <div className="info-icon-container">
                                 <div className="info-icon">i</div>
                                 <div className="tooltip">
-                                    <h3>ID:{project.id}</h3>
+                                    {/*<h3>ID:{project.id}</h3>*/}
                                     <h3>Key Contributions:</h3>
                                     <ul>
                                         {project.keyContributions.map((contribution, index) => (
                                             <li key={index}>{contribution}</li>
                                         ))}
                                     </ul>
-                                    <h3>
-                                        Status: <div className="inline">{project.status}</div>
-                                    </h3>
+                                    <h3>Status: <div className="inline">{project.status}</div></h3>
                                     <h3>Tags:</h3>
-                                    <ul>
-                                        {project.tags.map((responsibility, index) => (
-                                            <li key={index}>{responsibility}</li>
-                                        ))}
-                                    </ul>
+                                    <ul>{project.tags.map((responsibility, index) => (
+                                        <li key={index}>{responsibility}</li>
+                                    ))}</ul>
                                 </div>
                             </div>
                         </div>
