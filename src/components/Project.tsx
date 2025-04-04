@@ -90,7 +90,7 @@ function Project() {
                 {filteredProjects.map((project) => (
                     <div className="project" key={project.id}>
                         <div className="image-container">
-                            <img src={project.images[0]} className="zoom" alt="thumbnail" width="100%"/>
+                            <img src={project.images[0]} className="image-zoom" alt="thumbnail" width="100%"/>
                             <div className="image-tooltip">
                                 <div className="responsibilities">
                                     {project.responsibilities.map((contribution, index) => (
@@ -98,7 +98,7 @@ function Project() {
                                     ))}
                                 </div>
                                 <div className="date">
-                                    {project.date?.toLocaleDateString('en-US', {year: 'numeric', month: '2-digit'})}
+                                    {project.date?.toLocaleDateString('en-US', {year: 'numeric'})}
                                 </div>
                             </div>
                         </div>
@@ -135,7 +135,7 @@ function Project() {
                             </div>
                         </div>
                         <div className="technologies">
-                            {project.tags.map((contribution, index) => (
+                            {project.technologies.map((contribution, index) => (
                                 <div className="technology" key={index}>{contribution}</div>
                             ))}
                         </div>
