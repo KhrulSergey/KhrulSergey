@@ -1,4 +1,5 @@
 import ProjectData from '../model/ProjectData';
+import moment from "moment";
 
 const projectPrefix = 'project-%s';
 const stackIncludeWords = ['All', 'Java', 'PostgreSQL', 'Spring', 'TypeScript', 'Cosmos SDK', 'GoLang', 'Telegram',
@@ -82,6 +83,7 @@ class ProjectService {
                     console.error(`Invalid project data: ${JSON.stringify(item)}`);
                     throw new Error(`Invalid project data: ${JSON.stringify(item)}`);
                 }
+                const finishedDate = moment(item.finished_date, 'MM.YYYY')
                 return {
                     id: item.id,
                     name: item.name,
@@ -95,6 +97,7 @@ class ProjectService {
                     supportedChains: item.supported_chains || [],
                     partners: item.partnerships || [],
                     keyContributions: item.key_contributions,
+                    date: finishedDate.isValid() ? finishedDate.toDate() : null,
                 };
             });
 

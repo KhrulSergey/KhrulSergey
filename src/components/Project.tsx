@@ -8,7 +8,7 @@ function Project() {
     const [projects, setProjects] = useState<ProjectData[]>([]);
     const [filterButtons, setFilterButtons] = useState<string[]>([]);
     const [filteredProjects, setFilteredProjects] = useState<ProjectData[]>([]);
-    const [activeFilter, setActiveFilter] = useState<string>('All'); // Track the active filter
+    const [activeFilter, setActiveFilter] = useState<string>('All');
 
     useEffect(() => {
         projectService.getProjects().then((data: ProjectData[]) => {
@@ -23,8 +23,8 @@ function Project() {
 
     const cleanSearchInput = () => {
         const searchInput = document.querySelector('.search-input') as HTMLInputElement;
-        searchInput.value = "";
-    }
+        searchInput.value = '';
+    };
 
     const filterProjects = useCallback(
         (pType: string) => {
@@ -32,9 +32,7 @@ function Project() {
                 setFilteredProjects(projects);
             } else {
                 const filtered = projects.filter((project) =>
-                    project.technologies.some((tech) =>
-                        tech.toLowerCase().includes(pType.toLowerCase())
-                    )
+                    project.technologies.some((tech) => tech.toLowerCase().includes(pType.toLowerCase()))
                 );
                 setFilteredProjects(filtered);
             }
@@ -51,7 +49,7 @@ function Project() {
                     project.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                     project.description.toLowerCase().includes(searchTerm.toLowerCase())
             );
-            setActiveFilter("")
+            setActiveFilter('');
             setFilteredProjects(searched);
         },
         [projects]
@@ -61,7 +59,7 @@ function Project() {
         (e: React.MouseEvent<HTMLButtonElement>) => {
             const typePro = (e.currentTarget as HTMLButtonElement).value;
             filterProjects(typePro);
-            setActiveFilter(typePro); // Update the active filter
+            setActiveFilter(typePro);
         },
         [filterProjects]
     );
@@ -80,7 +78,7 @@ function Project() {
                             key={index}
                             value={type}
                             onClick={handleFilter}
-                            className={`filter-button ${activeFilter === type ? 'active' : ''}`} // Add active class conditionally
+                            className={`filter-button ${activeFilter === type ? 'active' : ''}`}
                         >
                             {type}
                         </button>
@@ -93,6 +91,16 @@ function Project() {
                     <div className="project" key={project.id}>
                         <div className="image-container">
                             <img src={project.images[0]} className="zoom" alt="thumbnail" width="100%"/>
+                            <div className="image-tooltip">
+                                <div className="responsibilities">
+                                    {project.responsibilities.map((contribution, index) => (
+                                        <div className="technology" key={index}>{contribution}</div>
+                                    ))}
+                                </div>
+                                <div className="date">
+                                    {project.date?.toLocaleDateString('en-US', {year: 'numeric', month: '2-digit'})}
+                                </div>
+                            </div>
                         </div>
                         <div className="details">
                             <div className="project-name">
@@ -117,17 +125,17 @@ function Project() {
                                     <h3>
                                         Status: <div className="inline">{project.status}</div>
                                     </h3>
-                                    <h3>Responsibilities:</h3>
+                                    <h3>Tags:</h3>
                                     <ul>
-                                        {project.responsibilities.map((responsibility, index) => (
+                                        {project.tags.map((responsibility, index) => (
                                             <li key={index}>{responsibility}</li>
                                         ))}
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div className='technologies'>
-                            {project.technologies.map((contribution, index) => (
+                        <div className="technologies">
+                            {project.tags.map((contribution, index) => (
                                 <div className="technology" key={index}>{contribution}</div>
                             ))}
                         </div>

@@ -11,6 +11,7 @@ interface ProjectData {
   supportedChains: string[];
   partners: string[];
   keyContributions: string[];
+  date: Date | null;
 }
 
 export default ProjectData;

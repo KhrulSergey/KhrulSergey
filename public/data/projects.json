@@ -3,6 +3,8 @@
     "id": 1,
     "name": "Cryptocurrency multichain meme token launchpad for Telegram Mini App",
     "domain": "Cryptocurrency, Web3, Telegram Mini App",
+    "start_date": "10.2024",
+    "finished_date": "02.2025",
     "responsibilities": [
       "Architect",
       "TechLead",
@@ -42,6 +44,8 @@
     "id": 2,
     "name": "Cryptocurrency omnichain protocol for swaps",
     "domain": "Cryptocurrency, Blockchain, DeFi",
+    "start_date": "01.2024",
+    "finished_date": "06.2024",
     "responsibilities": [
       "Backend Developer",
       "CI/CD setup"
@@ -75,6 +79,8 @@
     "id": 3,
     "name": "Web3 billing platform and payment gateway for a satellite internet provider",
     "domain": "Web3, Billing, Payment Gateway, Satellite Internet",
+    "start_date": "09.2023",
+    "finished_date": "01.2024",
     "responsibilities": [
       "TechLead",
       "Backend Developer"
@@ -108,6 +114,8 @@
     "id": 4,
     "name": "HFT Trading bot for CEX-DEX arbitrage",
     "domain": "Trading, Arbitrage, Cryptocurrency, CEX, DEX",
+    "finished_date": "10.2024",
+    "start_date": "01.2022",
     "responsibilities": [
       "Architect",
       "TechLead",
@@ -154,6 +162,8 @@
     "id": 5,
     "name": "Statistical platform for a multichain DEX",
     "domain": "Cryptocurrency, DEX, Statistics, Analytics",
+    "finished_date": "08.2022",
+    "start_date": "05.2022",
     "responsibilities": [
       "TechLead",
       "Backend Developer"
@@ -180,6 +190,8 @@
     "id": 6,
     "name": "Casual and tap-style games for Telegram MiniApps",
     "domain": "Gaming, Telegram Mini-Apps, Web3",
+    "finished_date": "10.2024",
+    "start_date": "05.2024",
     "responsibilities": [
       "TechLead",
       "Backend Developer"
@@ -206,6 +218,8 @@
     "id": 7,
     "name": "Data-driven system for analyzing DAO metrics",
     "domain": "DAO, Analytics, Data Aggregation",
+    "finished_date": "05.2022",
+    "start_date": "02.2022",
     "responsibilities": [
       "TechLead",
       "Backend Developer"
@@ -218,8 +232,8 @@
       "GraphQL client",
       "PostgreSQL"
     ],
-    "link": "https://daopulse.org",
-    "status": "Functional v1",
+    "link": "https://github.com/daopulse",
+    "status": "Functional v1. Frozen",
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
@@ -231,6 +245,8 @@
     "id": 8,
     "name": "CBDC bridge platform streamlining SWIFT transactions",
     "domain": "CBDC, Blockchain, Finance, SWIFT",
+    "finished_date": "11.2023",
+    "start_date": "05.2023",
     "responsibilities": [
       "Tech manager",
       "Backend Developer"
@@ -268,6 +284,8 @@
     "id": 9,
     "name": "3D Model Management Platform for Registration and Assessment of Patent Infringement",
     "domain": "3D Modeling, Patent, Legal",
+    "finished_date": "11.2022",
+    "start_date": "04.2022",
     "responsibilities": [
       "Backend Developer"
     ],
@@ -295,6 +313,8 @@
     "id": 10,
     "name": "Cryptocurrency dApp valuation tool",
     "domain": "DEX, Finance, Valuation",
+    "finished_date": "10.2021",
+    "start_date": "07.2021",
     "responsibilities": [
       "Full Stack Developer"
     ],
@@ -318,6 +338,8 @@
     "id": 11,
     "name": "SaaS platform for digitizing concrete delivery and management for construction sites",
     "domain": "SaaS, Construction, Blockchain",
+    "finished_date": "01.2022",
+    "start_date": "09.2021",
     "responsibilities": [
       "Full Stack Developer"
     ],
@@ -337,12 +359,15 @@
     "partnerships": null,
     "key_contributions": [
       "Developed a mechanism for creating RWA tokens (delivery contracts) compliant with the EIP 1155 standard"
-    ]
+    ],
+    "link": "http://flixbeton.com"
   },
   {
     "id": 12,
     "name": "Solana-based NFT marketplace",
     "domain": "NFT, Marketplace, Solana",
+    "finished_date": "02.2022",
+    "start_date": "08.2021",
     "responsibilities": [
       "TechLead",
       "Full Stack Developer"
@@ -374,6 +399,8 @@
     "id": 13,
     "name": "Platform for esports tournaments and a marketplace",
     "domain": "Esports, Marketplace, Gaming",
+    "finished_date": "07.2021",
+    "start_date": "03.2021",
     "responsibilities": [
       "TechLead",
       "Full Stack Developer"
@@ -408,6 +435,8 @@
     "id": 14,
     "name": "Real-time cloud video analytics",
     "domain": "Video Analytics, Cloud, Surveillance",
+    "finished_date": "03.2021",
+    "start_date": "10.2020",
     "responsibilities": [
       "Backend Developer"
     ],
@@ -432,6 +461,8 @@
     "id": 15,
     "name": "Digital platform offering online appointments with government agencies",
     "domain": "Government, Online Appointments",
+    "finished_date": "02.2021",
+    "start_date": "09.2020",
     "responsibilities": [
       "Backend Developer"
     ],
@@ -454,6 +485,8 @@
     "id": 16,
     "name": "National-scale personal data management system",
     "domain": "Government, Data Management, Personal Data",
+    "finished_date": "10.2020",
+    "start_date": "03.2020",
     "responsibilities": [
       "Full Stack Developer"
     ],
@@ -485,6 +518,8 @@
     "id": 17,
     "name": "Factoring platform for thousands of companies",
     "domain": "Finance, Factoring",
+    "finished_date": "08.2020",
+    "start_date": "03.2020",
     "responsibilities": [
       "Full Stack Developer"
     ],
@@ -512,6 +547,8 @@
     "id": 18,
     "name": "Interactive map showcasing mining companies",
     "domain": "Mapping, Mining, Visualization",
+    "finished_date": "06.2020",
+    "start_date": "03.2020",
     "responsibilities": [
       "Full Stack Developer"
     ],
@@ -535,6 +572,8 @@
     "id": 19,
     "name": "Dedicated online marketplace for hookah tobacco",
     "domain": "E-commerce, Marketplace, Tobacco",
+    "finished_date": "05.2020",
+    "start_date": "02.2020",
     "responsibilities": [
       "Full Stack Developer"
     ],
@@ -557,6 +596,8 @@
     "id": 20,
     "name": "Specialized portal for recruiting senior government officials",
     "domain": "Government, Recruitment, HR",
+    "finished_date": "12.2019",
+    "start_date": "10.2018",
     "responsibilities": [
       "Technical manager"
     ],
@@ -578,6 +619,8 @@
     "id": 21,
     "name": "SaaS platform empowering car service franchisees",
     "domain": "SaaS, Automotive, Franchise Management",
+    "finished_date": "12.2019",
+    "start_date": "04.2019",
     "responsibilities": [
       "Technical manager",
       "Architect"
@@ -602,6 +645,8 @@
     "id": 22,
     "name": "Information management system for rare earth metal enterprises",
     "domain": "Enterprise Systems, Resource Management, Metals",
+    "finished_date": "12.2019",
+    "start_date": "05.2019",
     "responsibilities": [
       "Technical manager"
     ],
@@ -622,6 +667,8 @@
     "id": 23,
     "name": "Interactive digital reference for standardized tool classifier codes",
     "domain": "Industrial, Classification, Reference",
+    "finished_date": "12.2019",
+    "start_date": "10.2018",
     "responsibilities": [
       "Technical manager"
     ],
@@ -643,6 +690,8 @@
     "id": 24,
     "name": "Digital system for industrial enterprises to submit state support applications",
     "domain": "Government, Industrial, Applications",
+    "finished_date": "12.2019",
+    "start_date": "08.2019",
     "responsibilities": [
       "Technical manager"
     ],
@@ -663,6 +712,8 @@
     "id": 25,
     "name": "Analytical platform for gathering and assessing industrial capacity and production resource data",
     "domain": "Analytics, Industrial, Data Aggregation",
+    "finished_date": "01.2020",
+    "start_date": "09.2019",
     "responsibilities": [
       "Technical manager"
     ],
@@ -684,6 +735,8 @@
     "id": 26,
     "name": "Interactive national gallery of industrial products",
     "domain": "Industrial, Gallery, Data Integration",
+    "finished_date": "02.2020",
+    "start_date": "09.2019",
     "responsibilities": [
       "Technical manager"
     ],
@@ -708,6 +761,8 @@
     "id": 27,
     "name": "Landing Page projects for commercial organizations",
     "domain": "Web Development, Marketing, Landing Pages",
+    "finished_date": "02.2020",
+    "start_date": "10.2018",
     "responsibilities": [
       "Technical manager"
     ],
@@ -725,6 +780,8 @@
     "id": 28,
     "name": "Online video conferencing platform",
     "domain": "Video Conferencing, Communication, Collaboration",
+    "finished_date": "10.2018",
+    "start_date": "07.2018",
     "responsibilities": [
       "Technical Lead",
       "Quality Assurance"
@@ -749,6 +806,8 @@
     "id": 29,
     "name": "E-commerce platform for bakery supplies",
     "domain": "E-commerce, Retail, Bakery",
+    "finished_date": "07.2018",
+    "start_date": "05.2018",
     "responsibilities": [
       "Technical manager",
       "Frontend Developer"
@@ -773,6 +832,8 @@
     "id": 30,
     "name": "Web portal for a hotel chain",
     "domain": "Hospitality, Web Development, Booking",
+    "finished_date": "05.2018",
+    "start_date": "03.2018",
     "responsibilities": [
       "Technical manager"
     ],
@@ -792,6 +853,8 @@
     "id": 31,
     "name": "E-commerce portal for a chain of building supply stores",
     "domain": "E-commerce, Retail, Building Supplies",
+    "finished_date": "09.2018",
+    "start_date": "04.2018",
     "responsibilities": [
       "Technical manager"
     ],
@@ -814,6 +877,8 @@
     "id": 32,
     "name": "ML-powered real-time detection of defects and breaches in deep-sea oil infrastructure",
     "domain": "ML, Oil & Gas, Infrastructure, Deep-Sea",
+    "finished_date": "05.2018",
+    "start_date": "10.2017",
     "responsibilities": [
       "Technical manager",
       "Technical writer",
@@ -839,6 +904,8 @@
     "id": 33,
     "name": "Modernization of hydraulic transformer operation and backup systems",
     "domain": "Energy, Infrastructure, Power Systems",
+    "finished_date": "08.2018",
+    "start_date": "02.2018",
     "responsibilities": [
       "Project manager",
       "Technical writer"
@@ -858,6 +925,8 @@
     "id": 34,
     "name": "R&D for ARM-based hardware and software for autonomous underwater vehicles",
     "domain": "R&D, Robotics, Underwater Vehicles, Distributed Computing",
+    "finished_date": "06.2018",
+    "start_date": "02.2017",
     "responsibilities": [
       "Technical manager",
       "Researcher"
@@ -884,7 +953,9 @@
   {
     "id": 35,
     "name": "Online brand and marketing campaign for a nightclub",
-    "domain": "Marketing, Branding, Nightlife",
+    "domain": "Marketing, Branding, Landing",
+    "finished_date": "12.2016",
+    "start_date": "06.2016",
     "responsibilities": [
       "Marketing manager",
       "Frontend Developer"
@@ -908,6 +979,8 @@
     "id": 36,
     "name": "Configuring and deploying servers for citizen application service platform (MFC)",
     "domain": "DevOps, Government, Server Management",
+    "finished_date": "06.2016",
+    "start_date": "04.2016",
     "responsibilities": [
       "Team Lead",
       "DevOps"
@@ -928,6 +1001,8 @@
     "id": 37,
     "name": "Mobile application for government-sponsored taxi services",
     "domain": "Mobile App, Government, Transportation",
+    "finished_date": "02.2016",
+    "start_date": "06.2015",
     "responsibilities": [
       "Team Lead"
     ],
@@ -950,6 +1025,8 @@
     "id": 38,
     "name": "Configuring and deploying a library accounting platform",
     "domain": "Library Management, Software Deployment, Accounting",
+    "finished_date": "06.2016",
+    "start_date": "06.2014",
     "responsibilities": [
       "Product Manager",
       "Technical Lead"
@@ -971,6 +1048,8 @@
     "id": 39,
     "name": "Satellite-based forest fire monitoring and forecasting platform",
     "domain": "Environmental, Monitoring, Satellite, Forecasting",
+    "finished_date": "06.2014",
+    "start_date": "10.2013",
     "responsibilities": [
       "Backend Developer"
     ],
@@ -991,6 +1070,8 @@
     "id": 40,
     "name": "Real-time public transit information system",
     "domain": "Transportation, Public Transit, Real-time Data",
+    "finished_date": "03.2014",
+    "start_date": "04.2010",
     "responsibilities": [
       "Backend Developer",
       "Researcher"
@@ -1013,6 +1094,8 @@
     "id": 41,
     "name": "Maintenance and performance optimization of turnstile-based access control systems",
     "domain": "Access Control, Security, Optimization",
+    "finished_date": "05.2010",
+    "start_date": "03.2008",
     "responsibilities": [
       "Backend Developer",
       "Engineer"
@@ -1034,6 +1117,8 @@
     "id": 42,
     "name": "Video streaming and web storage platform offering movies and clips via subscription or on-demand access",
     "domain": "Video Streaming, Web Storage, Entertainment",
+    "finished_date": "09.2005",
+    "start_date": "02.2003",
     "responsibilities": [
       "Backend Developer",
       "Content manager"
