@@ -18,10 +18,10 @@ import Toolbar from '@mui/material/Toolbar';
 
 const drawerWidth = 240;
 const navItems = [
-    // ['Expertise', 'expertise'],
-    // ['History', 'history'],
     ['Projects', 'projects'],
-    // ['Contact', 'contact']
+    // ['Expertise', 'expertise'],
+    ['History', 'timeline'],
+    ['Contact', 'contact']
 ];
 
 function Navigation({parentToChild, modeChange}: any) {
@@ -79,7 +79,7 @@ function Navigation({parentToChild, modeChange}: any) {
     );
 
     return (
-        <Box sx={{display: 'flex'}}>
+        <Box>
             <CssBaseline/>
             <AppBar component="nav" id="navigation" className={`navbar-fixed-top${scrolled ? ' scrolled' : ''}`}>
                 <Toolbar className='navigation-bar'>

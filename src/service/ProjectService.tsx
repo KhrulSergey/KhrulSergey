@@ -56,14 +56,12 @@ class ProjectService {
             const response = await fetch('data/projects.json');
             if (!response.ok) {
                 console.error(`HTTP error! status: ${response.status}`);
-                throw new Error(`HTTP error! status: ${response.status}`);
             }
             const data = await response.json();
 
             // Validate the data structure
             if (!Array.isArray(data)) {
                 console.error('Invalid data format: Expected an array.');
-                throw new Error('Invalid data format: Expected an array.');
             }
 
             // Map the data to ProjectData objects
