@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useMemo} from "react";
 import "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,20 +7,23 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "../assets/styles/Timeline.scss";
-import { careerData, CareerItem } from "../service/CareerData";
+import CareerService from "../service/CareerService";
+import CareerData from "../model/CareerData";
 
 function Timeline() {
+    const careerService = useMemo(() => CareerService.getInstance(), []);
+
     return (
         <div id="timeline">
             <div className="items-container">
                 <h1>Career History</h1>
                 <VerticalTimeline>
-                    {careerData.map((item: CareerItem, index: number) => (
+                    {careerService.getCareers().map((item: CareerData, index: number) => (
                         <VerticalTimelineElement
                             key={index}
                             className="vertical-timeline-element--work"
                             date={item.date}
-                            icon={<FontAwesomeIcon icon={item.icon} />} // Use specific icon from item
+                            icon={<FontAwesomeIcon icon={item.icon} />}
                         >
                             <h3 className="vertical-timeline-element-title">{item.title}</h3>
                             <h4 className="vertical-timeline-element-subtitle">{item.subtitle}</h4>

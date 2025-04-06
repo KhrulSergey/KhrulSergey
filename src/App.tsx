@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {Footer, Main, Navigation, Project, Contact, Timeline} from "./components";
+import {Footer, Main, Navigation, Project, Contact, Timeline, Certificates} from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
 
@@ -26,6 +26,7 @@ function App() {
                 <Project/>
                 {/*<Expertise/>*/}
                 <Timeline/>
+                <Certificates/>
                 <Contact/>
             </FadeIn>
             <Footer/>

@@ -4,20 +4,34 @@ import {
     faBuilding,
     faCode,
     faMagnifyingGlassChart,
+    faTrophy,
     faPeopleRoof,
     faUserGraduate,
 } from "@fortawesome/free-solid-svg-icons";
-import {IconProp} from "@fortawesome/fontawesome-svg-core";
+import CareerData from "../model/CareerData";
 
-export interface CareerItem {
-    date: string;
-    title: string;
-    subtitle: string;
-    description: string;
-    icon: IconProp; // Add icon property
+
+class CareerService {
+    private static instance: CareerService | null = null;
+
+    private constructor() {
+    }
+
+    public static getInstance(): CareerService {
+        if (!CareerService.instance) {
+            CareerService.instance = new CareerService();
+        }
+        return CareerService.instance;
+    }
+
+    public getCareers(): CareerData[] {
+        return careerList;
+    }
 }
 
-export const careerData: CareerItem[] = [
+export default CareerService;
+
+const careerList: CareerData[] = [
     {
         date: "2019 - present",
         title: "Become fun of Big Data handling on Java/Go/TS",
@@ -40,8 +54,15 @@ export const careerData: CareerItem[] = [
         icon: faUserGraduate, // Use specific icon
     },
     {
+        date: "2012",
+        title: "Won personal state R&D grant",
+        subtitle: "Remote: US, RU",
+        description: "Research topic: Improving vehicle navigation positioning through algorithms and software",
+        icon: faTrophy, // Use specific icon
+    },
+    {
         date: "2010",
-        title: "Started new chapter as Research Engineer",
+        title: "Started new chapter as C# Research Engineer",
         subtitle: "Remote: US, RU",
         description: "Complex algorithm, Data Processing, Statistical Analysis",
         icon: faMagnifyingGlassChart, // Use specific icon
