@@ -1,38 +1,62 @@
 .vertical-timeline span {
-    color: white;
-    font-family: 'Courier Prime', monospace;
+  color: white;
+  font-family: "Courier Prime", monospace;
 }
 
 .vertical-timeline p {
-    color: rgb(39, 40, 34);
+  color: rgb(39, 40, 34);
 }
 
 .vertical-timeline-element p {
-    color: rgb(39, 40, 34);
+  color: rgb(39, 40, 34);
+  font-size: medium;
 }
 
 .vertical-timeline-element h3 {
-    color: rgb(39, 40, 34);
+  color: rgb(39, 40, 34);
+  font-size: large;
 }
 
 .vertical-timeline-element h4 {
-    color: rgb(39, 40, 34);
+  color: rgb(39, 40, 34);
+  font-size: medium;
+  font-style: italic;
 }
 
 .vertical-timeline-element span {
-    color: rgb(39, 40, 34);
+  color: rgb(39, 40, 34);
 }
 
 .vertical-timeline-element .vertical-timeline-element-date {
-    color: white;
+  color: white;
 }
 
 .svg-inline--fa {
-    color: white;
+  color: white;
 }
 
 @media screen and (max-width: 1170px) {
-    .vertical-timeline-element .vertical-timeline-element-date {
-        color: rgb(39, 40, 34);
-    }
+  .vertical-timeline-element .vertical-timeline-element-date {
+    color: rgb(39, 40, 34);
+  }
+}
+
+.vertical-timeline-element--work {
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  .vertical-timeline-element-content {
+    background: white;
+    padding: 15px;
+    color: rgb(39, 40, 34);
+  }
+
+  .vertical-timeline-element-content-arrow {
+    border-right: 7px solid white;
+  }
+
+  .vertical-timeline-element-icon {
+    background: #0066b3;
+    color: rgb(39, 40, 34);
+  }
 }
