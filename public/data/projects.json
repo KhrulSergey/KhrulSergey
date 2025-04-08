@@ -71,7 +71,7 @@
     "partnerships": null,
     "key_contributions": [
       "Enhanced protocol to support gas fee payments in gas token in the destination network during cross-chain swaps",
-      "Integrated support for additional chains—Polygon, Berachain, and Arbitrum"
+      "Integrated support for additional chains — Polygon, Berachain, and Arbitrum"
     ]
   },
   {
@@ -451,7 +451,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Implemented an optimized encoding mechanism and compressing the video data stream"
+      "Implemented an optimized encoding mechanism and compressed the video data stream"
     ],
     "microservices_count": 20
   },
@@ -509,7 +509,7 @@
       "Government ministries"
     ],
     "key_contributions": [
-      "Achieved a 60% increase in data search speed"
+      "Achieved a 60% increase in data search speed from multiple Data sources"
     ]
   },
   {
@@ -563,7 +563,7 @@
     "key_contributions": [
       "Self-developed",
       "Refined the 3D country map model",
-      "The interactive stand at the 'Expo 2020' international conference recorded 50,000 user interactions."
+      "Prepared interactive stand at the 'Expo 2020' international conference, that recorded 50,000 user interactions."
     ]
   },
   {
@@ -1085,7 +1085,7 @@
     "partnerships": null,
     "key_contributions": [
       "Developing algorithms to triangulate vehicle location and restore routes using satellite data and telemetry information. Accuracy improved up to 50%.",
-      "Adapting lidar-based location algorithm caching for optimized performance on ARM-powered mobile terminals."
+      "Adapting inertial-based location in caching algorithm for optimized performance on ARM-powered mobile terminals."
     ]
   },
   {
@@ -1123,6 +1123,7 @@
     ],
     "technologies": [
       "C++",
+      "HTML",
       "JavaScript",
       "MS SQL"
     ],

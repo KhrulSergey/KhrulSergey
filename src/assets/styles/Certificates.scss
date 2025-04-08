@@ -23,6 +23,20 @@
   }
 }
 
+@media screen {
+  @media (max-width: 1000px) {
+    .certificates-container .certificates-carousel {
+      width: 50vh;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .certificates-container .certificates-carousel {
+      width: 30vh;
+    }
+  }
+}
+
 .modal-container {
   display: flex;
   align-items: center;

@@ -122,6 +122,15 @@ function Project() {
                                             <li key={index}>{contribution}</li>
                                         ))}
                                     </ul>
+                                    {project.partners && project.partners.length > 0 && (
+                                        <>
+                                            <h3>Partnership</h3>
+                                            <ul>
+                                                {project.partners.map((partner, index) => (
+                                                    <li key={index}>{partner}</li>
+                                                ))}
+                                            </ul>
+                                        </>)}
                                     <h3>Status: <div className="inline">{project.status}</div></h3>
                                     <h3>Tags:</h3>
                                     <ul>{project.tags.map((responsibility, index) => (

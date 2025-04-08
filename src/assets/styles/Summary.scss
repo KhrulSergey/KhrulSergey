@@ -1,0 +1,151 @@
+.summary-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.info-container {
+  flex: 1 1 45%;
+  min-width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 10px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+.resume-container {
+  background: linear-gradient(135deg,  #dcdde2, #ebedf0);
+  color: #003366;
+  align-items: center;
+
+  .download-button {
+    background: linear-gradient(to right, white, #e0e0e0);
+    color: #050f0b;
+    transition: background 0.3s ease;
+
+    &:hover {
+      background: linear-gradient(to right,  #f5f5f8, #dddde1);
+    }
+  }
+}
+
+.dark-mode .resume-container {
+  background: linear-gradient(76deg, #e0f2ff, #a3d2ff);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  h1, p {
+    color: black;
+  }
+  .download-button {
+    background: linear-gradient(to right, #d8d6d6,  #b7b8b9);
+    color: white;
+
+    &:hover {
+      background: linear-gradient(to right, #fcfcfc,  #e0dddd);
+    }
+  }
+}
+
+.contact-container {
+  align-items: center;
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px !important;  
+  margin: 20px 0 !important;
+  border-radius: 8px !important;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Make them take up full width */
+  max-width: fit-content;
+}
+
+.download-button {
+  background: linear-gradient(to right, white, #e0e0e0); /* White to gray gradient */
+  color: #050f0b; /* Dark text color */
+  &:hover {
+    background: linear-gradient(to right, #e0e0e0, white); /* Reverse gradient on hover */
+  }
+}
+
+.telegram-button {
+  background: linear-gradient(135deg, #e0f2ff, #a3d2ff);
+  color: #003366;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.telegram-button:hover {
+  background: linear-gradient(135deg, #cce5ff, #80bfff);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  color: #002244;
+}
+
+.dark-mode .telegram-button {
+  background: linear-gradient(135deg, #0077cc, #003366);
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    background: linear-gradient(135deg, #0066b3, #002244);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    color: white;
+  }
+}
+
+.download-logo {
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  color: #0077cc;
+}
+
+.telegram-logo {
+  width: 30px;
+  height: 30px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.button-link-text {
+  margin: 5px!important;
+  font-family: 'Lato', sans-serif;
+  text-transform: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .summary-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .info-container {
+    flex: 1 1 100%;
+    min-width: auto;
+  }
+}
