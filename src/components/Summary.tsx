@@ -38,7 +38,7 @@ function Summary() {
                             rel="noopener noreferrer"
                         >
                             <span className="telegram-logo"></span>
-                            <p className="button-link-text">Message me on Telegram</p>
+                            <p className="button-link-text">Text me on Telegram</p>
                         </Button>
                     </div>
           
