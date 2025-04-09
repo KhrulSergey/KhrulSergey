@@ -1,10 +1,19 @@
 .certificates-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+
   .certificates-carousel {
-    width: 80vh;
-    height: 60vh;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    width: 75%;
+    flex: 1 1 auto;
+    padding: 10px;
+    height: auto;
     margin: 0 auto;
 
     .MuiPaper-root {
@@ -23,20 +32,6 @@
   }
 }
 
-@media screen {
-  @media (max-width: 1000px) {
-    .certificates-container .certificates-carousel {
-      width: 50vh;
-    }
-  }
-
-  @media (max-width: 700px) {
-    .certificates-container .certificates-carousel {
-      width: 30vh;
-    }
-  }
-}
-
 .modal-container {
   display: flex;
   align-items: center;
@@ -47,8 +42,8 @@
   background-color: white;
   padding: 20px;
   border-radius: 8px;
-  max-width: 80vw;
-  max-height: 80vh;
+  max-width: 90vw;
+  max-height: 90vh;
   overflow: auto;
   position: relative;
   display: flex;
@@ -68,8 +63,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 90%;
 }
 
 .modal-image {
@@ -77,4 +72,16 @@
   max-height: 100%;
   object-fit: contain;
   transition: transform 0.2s ease;
+}
+
+@media screen {
+  @media (max-width: 1000px) {
+    .certificates-container .certificates-carousel {
+      width: 100%;
+    }
+    .modal-image-container {
+      width: 100%;
+      height: 100%;
+    }
+  }
 }

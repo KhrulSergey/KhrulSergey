@@ -49,55 +49,58 @@ function Certificates() {
     };
 
     return (
-        <div id="certificates" className="certificates-container">
+        <div id="certificates">
             <div className="items-container">
                 <h1>Certificates</h1>
-                <Carousel
-                    className="certificates-carousel"
-                    autoPlay={false}
-                    navButtonsAlwaysVisible={true}
-                    indicators={false}
-                    animation="slide"
-                    cycleNavigation={true}
-                    NextIcon={<ArrowForwardIosIcon />}
-                    PrevIcon={<ArrowBackIosNewIcon />}
-                >
-                    {certificates.map((certificate, index) => (
-                        <Paper
-                            key={index}
-                            className="certificate-item"
-                            onClick={() => handleOpen(certificate.src)}
-                        >
-                            <img src={certificate.src} alt={certificate.alt} className="certificate-image" />
-                        </Paper>
-                    ))}
-                </Carousel>
-            </div>
+                <div className="certificates-container">
+                    <Carousel
+                        className="certificates-carousel"
+                        autoPlay={false}
+                        navButtonsAlwaysVisible={true}
+                        indicators={false}
+                        animation="slide"
+                        cycleNavigation={true}
+                        NextIcon={<ArrowForwardIosIcon/>}
+                        PrevIcon={<ArrowBackIosNewIcon/>}
+                    >
+                        {certificates.map((certificate, index) => (
+                            <Paper
+                                key={index}
+                                className="certificate-item"
+                                onClick={() => handleOpen(certificate.src)}
+                            >
+                                <img src={certificate.src} alt={certificate.alt} className="certificate-image"/>
+                            </Paper>
+                        ))}
+                    </Carousel>
+                </div>
 
-            <Modal open={open} onClose={handleClose} className="modal-container">
-                <Box className="modal-content">
-                    <div className="modal-header">
-                        <IconButton onClick={handleZoomIn}>
-                            <ZoomInIcon />
-                        </IconButton>
-                        <IconButton onClick={handleZoomOut}>
-                            <ZoomOutIcon />
-                        </IconButton>
-                    </div>
-                    <div className="modal-image-container">
-                        {selectedImage && (
-                            <img
-                                src={selectedImage}
-                                alt="Certificate"
-                                className="modal-image"
-                                style={{ transform: `scale(${zoomLevel})` }}
-                            />
-                        )}
-                    </div>
-                </Box>
-            </Modal>
+                <Modal open={open} onClose={handleClose} className="modal-container">
+                    <Box className="modal-content">
+                        <div className="modal-header">
+                            <IconButton onClick={handleZoomIn}>
+                                <ZoomInIcon/>
+                            </IconButton>
+                            <IconButton onClick={handleZoomOut}>
+                                <ZoomOutIcon/>
+                            </IconButton>
+                        </div>
+                        <div className="modal-image-container">
+                            {selectedImage && (
+                                <img
+                                    src={selectedImage}
+                                    alt="Certificate"
+                                    className="modal-image"
+                                    style={{transform: `scale(${zoomLevel})`}}
+                                />
+                            )}
+                        </div>
+                    </Box>
+                </Modal>
+            </div>
         </div>
-    );
+    )
+        ;
 }
 
 export default Certificates;
