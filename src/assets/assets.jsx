@@ -3,5 +3,5 @@ import bitDegreeSolidityImg from './images/certificates/BitDegree-Learn Solidity
 import bitDegreeSmartContractImg from './images/certificates/BitDegree-The Complete Solidity Smart Contract.jpg';
 import chainLinkBlockchainImg from './images/certificates/ChainLink-BlockchainFundamental.jpg';
 import gdprImg from './images/certificates/GDPR_Certificate.jpg';
-import resumePdf from './CV_Khrul_Sergei_Classic.pdf'
+import resumePdf from './CV Khrul Sergei Classic.pdf'
 export { avatarImg, bitDegreeSolidityImg, bitDegreeSmartContractImg, chainLinkBlockchainImg, gdprImg, resumePdf };
