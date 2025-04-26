@@ -3,28 +3,28 @@
 <div align="center">
 <h3><img 
 src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWt1azhlcXVxcGc4MXZ1OTc5c292bzc1NnBhMWdteGU5NmpqN2luOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif"
-width="30"> A passionate Full-stack and Blockchain Engineer 💻 | Argentina, EU <img 
+width="30"> A passionate GameFi and Blockchain Engineer 💻 | Canada, Argentina <img 
 src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2c2bnZ3YTRrejAyM2tuZnhkcHE3ZHp1MWJ2ZG1xejVkN2wycmEzYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CrFLL3CnRpw5ddlBMm/giphy.gif"
 width="30">
 </h3>
 </div>
 
  <h5 align="center">
-   <i>⚡️ I believe in debug and testing ⚡️</i>
+   <i>⚡️ Contribution = Debugging + Delivery ⚡️</i>
   </h5>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=KhrulSergey&label=Profile%20views&color=0e75b6&style=flat" alt="KhrulSergey" /> </p>
 
-- ⛄ I’m currently a Senior Lead Engineer at [Firmshift](https://github.com/blueshift-fi)
+- ⛄ I’m currently a Gameplay Lead Engineer at [iLogos](https://ilogos.biz)
 
-- 🌱 I got a **Engineer's degree in Economics And Math at Tomsk State University, RU**
+- 🌱 I got a **Master's degree in Economics And Math at Tomsk State University, RU**
 
 - 💻 I strive for becoming a **skillful Technical Leader in developing Software products with thousands of users**
 
-- 💬 Ask me about **Java, GO lang, React, Web3, Blockchain, DeFi, Coding Principles, Software Design and Optimization,
+- 💬 Ask me about **Java, GO lang, C#, React, Web3, Blockchain, DeFi, Coding Principles, Software Design and Optimization,
   Software Testing and Management**
 
-- ⚡ Noticeable facts: **I love to research especially in data processing, excelling in high-pressure situations, and detailed project implementation..**
+- ⚡ Noticeable facts: **I love to research especially in data processing, excelling in high-pressure situations, and detailed project implementation.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -44,8 +44,9 @@ width="30">
 <!--START_SECTION:waka-->
 
 ```txt
-Java         24 hrs 29 mins  █████████████████▒░░░░░░░   69.71 %
-GO           14 hrs 3 mins   █████▒░░░░░░░░░░░░░░░░░░░   21.64 %
+Java         20 hrs 29 mins  ██████████████▒░░░░░░░░░░   48.71 %
+C#           14 hrs 3 mins   ███████▒░░░░░░░░░░░░░░░░░   21.64 %
+GO           02 hrs 3 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░   10.64 %
 TypeScript   34 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.75 %
 Bash         28 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.26 %
 Other        18 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.48 %
