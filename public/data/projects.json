@@ -97,7 +97,11 @@
       "BOB",
       "Cardano Milkomeda"
     ],
-    "partnerships": null,
+    "partnerships": [
+      "BeraChain",
+      "Polygon",
+      "BOB chain"
+    ],
     "key_contributions": [
       "Enhanced protocol to support gas fee payments in gas token in the destination network during cross-chain swaps",
       "Integrated support for additional chains — Polygon, Berachain, and Arbitrum"
