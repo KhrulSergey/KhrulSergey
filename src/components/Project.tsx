@@ -9,6 +9,7 @@ function Project() {
     const [filterButtons, setFilterButtons] = useState<string[]>([]);
     const [filteredProjects, setFilteredProjects] = useState<ProjectData[]>([]);
     const [activeFilter, setActiveFilter] = useState<string>('All');
+    const [visibleTooltip, setVisibleTooltip] = useState<number | null>(null);
 
     useEffect(() => {
         projectService.getProjects().then((data: ProjectData[]) => {
@@ -20,6 +21,21 @@ function Project() {
     useEffect(() => {
         projectService.getProjectsStack().then(setFilterButtons);
     }, [projectService]);
+
+    // Close tooltip when clicking outside
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            const target = event.target as Element;
+            if (!target.closest('.image-container') && !target.closest('.info-icon-container')) {
+                setVisibleTooltip(null);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
 
     const cleanSearchInput = () => {
         const searchInput = document.querySelector('.search-input') as HTMLInputElement;
@@ -64,6 +80,16 @@ function Project() {
         [filterProjects]
     );
 
+    const handleImageClick = useCallback((projectId: number, event: React.MouseEvent) => {
+        event.stopPropagation();
+        setVisibleTooltip(visibleTooltip === projectId ? null : projectId);
+    }, [visibleTooltip]);
+
+    const handleImageDoubleClick = useCallback((projectId: number, event: React.MouseEvent) => {
+        event.stopPropagation();
+        setVisibleTooltip(visibleTooltip === projectId ? null : projectId);
+    }, [visibleTooltip]);
+
     return (
         <div className="projects-container" id="projects">
             <h1>Personal Projects</h1>
@@ -89,7 +115,11 @@ function Project() {
             <div className="projects-grid">
                 {filteredProjects.map((project) => (
                     <div className="project" key={project.id}>
-                        <div className="image-container">
+                        <div
+                            className="image-container"
+                            onClick={(e) => handleImageClick(project.id, e)}
+                            onDoubleClick={(e) => handleImageDoubleClick(project.id, e)}
+                        >
                             <img src={project.images[0]} className="image-zoom" alt="thumbnail" width="100%"/>
                             <div className="image-tooltip">
                                 <div className="responsibilities">
@@ -112,9 +142,11 @@ function Project() {
                                     <h2>{project.name}</h2>
                                 )}
                             </div>
-                            <div className="info-icon-container">
-                                <div className="info-icon">i</div>
-                                <div className="tooltip">
+                            <div className="info-icon-container"
+                                 onClick={(e) => handleImageClick(project.id, e)}
+                            >
+                                <div className={`info-icon ${visibleTooltip === project.id ? 'visible' : ''}`}>i</div>
+                                <div className={`tooltip ${visibleTooltip === project.id ? 'visible' : ''}`}>
                                     {/*<h3>ID:{project.id}</h3>*/}
                                     <h3>Key Contributions:</h3>
                                     <ul>

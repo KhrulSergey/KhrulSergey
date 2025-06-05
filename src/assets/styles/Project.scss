@@ -98,6 +98,7 @@
   width: 100%;
   padding-bottom: 100%;
   overflow: hidden;
+  cursor: pointer; /* Add cursor pointer to indicate clickability */
 }
 
 .image-container:hover {
@@ -194,15 +195,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 14px;
-  height: 14px;
+  width: 17px;
+  height: 17px;
   border-radius: 50%;
   background-color: #d2e5fe;
   border: 1px solid #939292;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: bold;
   color: #444;
   cursor: pointer;
+}
+.info-icon.visible {
+  background-color: #0066b3;
 }
 
 .tooltip {
@@ -217,13 +221,13 @@
   bottom: 100%;
   margin-bottom: 10px;
   width: 35vw;
-  max-height: 300px;
+  max-height: 350px;
   overflow-y: auto;
   pointer-events: none;
 }
-
 .info-icon-container:hover .tooltip,
-.info-icon-container:focus-within .tooltip {
+.info-icon-container:focus-within .tooltip,
+.tooltip.visible {
   opacity: 0.9;
   pointer-events: auto;
 }
@@ -279,7 +283,7 @@
       flex: 0 0 100%;
     }
 
-    .tooltip{
+    .tooltip {
       width: 50vw;
       transform: translateX(-85%);
     }
@@ -292,7 +296,7 @@
       padding-right: 5%;
     }
 
-    .tooltip{
+    .tooltip {
       width: 90vw;
       transform: translateX(-95%);
     }

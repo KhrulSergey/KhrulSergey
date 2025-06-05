@@ -20,12 +20,10 @@
     "status": "Functional V2",
     "supported_chains": null,
     "partnerships": [
-      "BrainRocket",
-      "ELA Games"
+      "NDA"
     ],
     "key_contributions": [
-      "Implemented a new algorithm leveraging 200+ user parameters to dynamically balance gameplay.",
-      "Architected and implemented server-side scaling solutions to support 1000 concurrent user sessions."
+      "Architected and implemented server-side scaling solutions to support 10,000 concurrent user sessions. (WP)"
     ]
   },
   {
