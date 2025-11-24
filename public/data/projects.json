@@ -1,5 +1,33 @@
 ﻿[
   {
+    "id": 43,
+    "name": "Multiplayer football game for browsers",
+    "domain": "MMO Game, WebGL, Unity",
+    "start_date": "04.2025",
+    "finished_date": "07.2025",
+    "responsibilities": [
+      "Gameplay Developer"
+    ],
+    "technologies": [
+      "Java EE",
+      "RxJava",
+      "C#",
+      "Unity",
+      "SmartFoxServer",
+      "HazelCast",
+      "PostgreSQL"
+    ],
+    "status": "Functional V2",
+    "supported_chains": null,
+    "partnerships": [
+      "NDA"
+    ],
+    "key_contributions": [
+      "Architected and implemented server-side scaling solutions to support 10,000 concurrent user sessions. (WP)",
+      "Implemented integration for multi-currency exchange with 3rd parties to enable more than 10 payment gateway for users"
+    ]
+  },
+  {
     "id": 1,
     "name": "Cryptocurrency multichain meme token launchpad for Telegram Mini App",
     "domain": "Cryptocurrency, Web3, Telegram Mini App",
