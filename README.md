@@ -3,7 +3,7 @@
 <div align="center">
 <h3><img 
 src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWt1azhlcXVxcGc4MXZ1OTc5c292bzc1NnBhMWdteGU5NmpqN2luOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGgsc5mWoryfgKBx1u/giphy.gif"
-width="30"> A passionate GameFi and Blockchain Engineer 💻 | South Africa, UAE <img 
+width="30"> A passionate GameFi and Blockchain Engineer 💻 | Kazakhstan, UAE <img 
 src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2c2bnZ3YTRrejAyM2tuZnhkcHE3ZHp1MWJ2ZG1xejVkN2wycmEzYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CrFLL3CnRpw5ddlBMm/giphy.gif"
 width="30">
 </h3>
