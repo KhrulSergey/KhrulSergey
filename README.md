@@ -109,7 +109,11 @@ Other        18 mins         ▒░░░░░░░░░░░░░░░░
 
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KhrulSergey&show_icons=true&locale=en&rank_icon=github&show=prs_merged&theme=algolia" alt="KhrulSergey" style="height: 200px"/>
- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KhrulSergey&hide=python&layout=compact&theme=algolia"  alt="KhrulSergey" style="height: 200px" />
+ <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=KhrulSergey&theme=dark" alt="GitHub Streak" /></a>
+ <a href="https://github.com/Pranesh-2005/convoychat">
+   <img height=200 align="center" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=KhrulSergey&layout=compact&langs_count=8&card_width=320" />
+ </a>
+<!--<img src="https://github-readme-stats.vercel.app/api?username=KhrulSergey&show_icons=true&locale=en&rank_icon=github&show=prs_merged&theme=algolia" alt="KhrulSergey" style="height: 200px"/>
+ <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KhrulSergey&hide=python&layout=compact&theme=algolia"  alt="KhrulSergey" style="height: 200px" /> -->
  <!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=KhrulSergey" alt="KhrulSergey" style="max-width: 42%; height: auto;" /> -->
 </p>
