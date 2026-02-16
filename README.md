@@ -110,6 +110,8 @@ Other        18 mins         ▒░░░░░░░░░░░░░░░░
 
 <p align="center">
  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=KhrulSergey&theme=dark" alt="GitHub Streak" /></a>
+</p>
+<p align="center">
  <a href="https://github.com/Pranesh-2005/convoychat">
    <img height=200 align="center" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=KhrulSergey&layout=compact&langs_count=8&card_width=320" />
  </a>
