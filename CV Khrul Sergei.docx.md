@@ -15,7 +15,7 @@ CORE COMPETENCIES & SKILLS
 PROFESSIONAL EXPERIENCE
 **Tech Lead**, iGaming MMO (Freelance / B2B) | *2025 – Present*
 * **Main projects:** High-load MMO football game with WebGL support;
-* **Team Scaling & Management:** Built and mentored a cross-functional R&D department from scratch, scaling the engineering team from 4 to 18 specialists (Backend, Frontend, QA, DevOps). Established hiring pipelines, technical interviews, and agile delivery processes.
+* **Team Expansion & Lobbying:** Prepared comprehensive economic and technical justifications to secure approval from C-level executives and the client for two hiring rounds, successfully scaling the R&D department from 4 to 18 specialists.
 * **Business-to-Tech Alignment:** Acted as the crucial bridge between product stakeholders and engineering, translating business requirements (Figma, PRDs) into robust technical architectures and successfully executing 5 major product epics.
 * **High-Load Architecture:** Rescued a legacy monolith by migrating to Java 25 (Virtual Threads) and Hazelcast 5.6. Containerized the infrastructure to Kubernetes, optimizing throughput from 30 to **4,000 RPS** per instance and enabling **10,000+ concurrent user sessions** with near-zero downtime.
 

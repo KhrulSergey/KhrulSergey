@@ -29,7 +29,7 @@
     "key_contributions": [
       "Architected and implemented server-side scaling solutions using Hazelcast 5.6 and Kubernetes to support 10,000 concurrent user sessions.",
       "Rescued legacy codebase, migrating monolith to Java 21 and Virtual Threads, boosting throughput from 30 to 4,000 RPS.",
-      "Scaled the engineering team from 4 to 18 specialists and established agile delivery processes.",
+      "Secured approval from C-level executives and the client for two hiring rounds based on economic and technical justifications, scaling the R&D team from 4 to 18 specialists.",
       "Implemented integration for multi-currency exchange with 3rd parties and built a real-time game monitoring pipeline."
     ]
   },
