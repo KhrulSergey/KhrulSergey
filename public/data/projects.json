@@ -1,20 +1,24 @@
-﻿[
+[
   {
     "id": 43,
     "name": "Multiplayer football game for browsers",
     "domain": "MMO Game, WebGL, Unity",
     "start_date": "04.2025",
-    "finished_date": "07.2025",
+    "finished_date": "present",
     "responsibilities": [
-      "Gameplay Developer"
+      "TechLead",
+      "Senior Backend Developer"
     ],
     "technologies": [
-      "Java EE",
+      "Java 25",
       "RxJava",
       "C#",
       "Unity",
       "SmartFoxServer",
-      "HazelCast",
+      "HazelCast 5.6",
+      "Kubernetes",
+      "Docker",
+      "CI/CD",
       "PostgreSQL"
     ],
     "status": "Functional V2",
@@ -23,8 +27,10 @@
       "NDA"
     ],
     "key_contributions": [
-      "Architected and implemented server-side scaling solutions to support 10,000 concurrent user sessions. (WP)",
-      "Implemented integration for multi-currency exchange with 3rd parties to enable more than 10 payment gateway for users"
+      "Architected and implemented server-side scaling solutions using Hazelcast 5.6 and Kubernetes to support 10,000 concurrent user sessions.",
+      "Rescued legacy codebase, migrating monolith to Java 21 and Virtual Threads, boosting throughput from 30 to 4,000 RPS.",
+      "Scaled the engineering team from 4 to 18 specialists and established agile delivery processes.",
+      "Implemented integration for multi-currency exchange with 3rd parties and built a real-time game monitoring pipeline."
     ]
   },
   {
@@ -34,18 +40,20 @@
     "start_date": "10.2024",
     "finished_date": "02.2025",
     "responsibilities": [
+      "Acting CTO",
       "Architect",
       "TechLead",
       "Backend Developer"
     ],
     "technologies": [
-      "Java 21",
+      "Java 25",
       "Solidity",
+      "Micronaut",
+      "XGBoost4J",
       "RxJava",
       "Spring WebFlux",
       "Spring",
       "TypeScript",
-      "RxJ",
       "Kubernetes",
       "PostgreSQL",
       "ClickHouse",
@@ -62,9 +70,10 @@
       "LDA Capital"
     ],
     "key_contributions": [
-      "Automated mechanism to track meme-token events across various EVM-based chains",
-      "Support for custom ERC-4337 AO services and Metamask Gator service stack",
-      "Algorithm to create and securely store Abstraction Account access mechanisms within a Telegram application"
+      "Led crisis recovery: reverse-engineered and decompiled 5,000+ backend files from Docker images, migrating the platform to AWS in 4 days.",
+      "Formulated long-term technical strategy and roadmap securing MetaMask Alpha Partner and Consensys Scale Program status.",
+      "Spearheaded rapid prototyping of Telegram Mini App with integrated wallet and biometric-secured key storage.",
+      "Developed an ML-driven training system (XGBoost4J, Micronaut, Redis) that autonomously bans 600+ bots daily."
     ]
   },
   {
@@ -74,8 +83,9 @@
     "start_date": "01.2024",
     "finished_date": "06.2024",
     "responsibilities": [
-      "Backend Developer",
-      "CI/CD setup"
+      "Deputy CTO",
+      "TechLead",
+      "Backend Developer"
     ],
     "technologies": [
       "GoLang",
@@ -102,8 +112,9 @@
       "BOB chain"
     ],
     "key_contributions": [
-      "Enhanced protocol to support gas fee payments in gas token in the destination network during cross-chain swaps",
-      "Integrated support for additional chains — Polygon, Berachain, and Arbitrum"
+      "Led technical turnaround of stalled cross-chain bridge on Cosmos SDK (TVL $12M+), scaling to 7+ networks with gas abstraction.",
+      "Optimized cross-chain transactions to run under 10 seconds costing $0.30 per tx with native gas abstraction.",
+      "Negotiated and established partnerships with Berachain and Polygon Foundation for integration."
     ]
   },
   {
@@ -183,9 +194,9 @@
     ],
     "partnerships": null,
     "key_contributions": [
-      "Self-developed",
-      "Assessed comprehensive backtesting procedures",
-      "Developed and researched trading algorithms"
+      "Architected and developed in-house AMM and HFT arbitrage platform to replace third-party vendor, processing $200k+ daily volume.",
+      "Implemented run-time orderbook, risk engine with circuit breakers, MEV-protected RPCs, and dynamic slippage algorithms.",
+      "Open-sourced high-performance Java integration libraries for MEXC, Binance, and OKX with full WebSocket support."
     ]
   },
   {
@@ -195,6 +206,7 @@
     "finished_date": "08.2022",
     "start_date": "05.2022",
     "responsibilities": [
+      "Architect",
       "TechLead",
       "Backend Developer"
     ],
@@ -212,8 +224,8 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Self-developed",
-      "Developed a mechanism to automatically generate complex exchange statistical metrics across multiple EVM-based chains"
+      "Architected and built a custom multichain blockchain events indexer (5 chains, latency <30ms) as a solo developer in 3 months.",
+      "Integrated full support for TheGraph's GraphQL format, enabling seamless migration for partners from external indexers."
     ]
   },
   {
@@ -955,8 +967,8 @@
     "id": 34,
     "name": "R&D for ARM-based hardware and software for autonomous underwater vehicles",
     "domain": "R&D, Robotics, Underwater Vehicles, Distributed Computing",
-    "finished_date": "06.2018",
-    "start_date": "02.2017",
+    "finished_date": "06.2017",
+    "start_date": "02.2015",
     "responsibilities": [
       "Technical manager",
       "Researcher"
