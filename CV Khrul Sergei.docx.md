@@ -26,7 +26,7 @@ PROFESSIONAL EXPERIENCE
 * **Technical Strategy & Business Growth:** Formulated and executed the company's long-term technical vision and development strategy. This strategic alignment between engineering and business goals formed the core of the investment memorandum, ultimately securing the company's place in the **Consensys Scale Program** and achieving **MetaMask Alpha Partner** status.
 * **Anti-Cheat ML System:** Engineered an ML-driven fraud detection and anti-bot system, resulting in over 600 daily user bans.
 
-**Tech Lead & Deputy CTO**, Firmshift B.V / In-house DeFi Ecosystem | *2022 – 2025*
+**Tech Lead**, Firmshift B.V / In-house DeFi Ecosystem | *2022 – 2025*
 * **Main projects:** Omnichain protocol on Cosmos SDK; Analytical platform for multichain DEX; HFT Trading bot for CEX-DEX arbitrage.
 * **Omnichain Protocol Turnaround (TVL $12M+):** Led the technical recovery and launch of a stalled cross-chain bridge on Cosmos SDK across 7+ networks with gas abstraction. Engineered core optimizations that reduced transaction costs to $0.30 and execution time to <10 seconds, driving strategic partnerships with the **Berachain** and **Polygon Foundations**.
 * **High-Performance Analytics:** As a solo developer, built a multichain analytical platform with a custom cross-chain indexer (5 networks, latency <30ms) from scratch in just 3 months. Integrated full support for TheGraph's GraphQL format, enabling seamless migration for partners from external indexers.
@@ -44,11 +44,12 @@ PROFESSIONAL EXPERIENCE
 * **Main projects:** Real-time public transport monitoring system; R&D for ARM-based hardware and software for autonomous vehicles.
 * **R&D Leadership & Grants:** Led advanced R&D projects in robotics and telecommunications, successfully winning and managing grants exceeding **$10M+**.
 * **Innovation & Accuracy:** Boosted GPS tracking accuracy by 50% using custom inertial-based algorithms and secured 3 software patents for autonomous vehicle technologies.
+* **Team Building & Mentorship:** Successfully delivered a cross-platform taxi-booking frontend (Java/Swift) by strategically distributing tasks among 3 part-time interns, ultimately securing full-time offers for the entire team.
 
 **Software Engineer / Site Manager**, Private Companies (EU) | *2003 – 2004, 2008 – 2010*
 * **Main projects:** Turnstile-based access control systems (C++); Video streaming and web storage platform.
-* Maintained and optimized a turnstile access system (C++, SQL Server, PERCo devices).
-* Achieved a 30% increase in monthly revenue by modifying and integrating new media content features into a web portal.
+* **System Maintenance & Optimization:** Maintained and optimized a turnstile access system (C++, SQL, PERCo devices).
+* **Feature Development & Monetization:** Achieved a 30% increase in monthly revenue by modifying and integrating new media content features into a web portal.
 
 EDUCATION & ACHIEVEMENTS
 **Education: Post-Graduate in Computer Engineering (Tomsk Polytechnic University, 2014); Master’s in Applied Mathematics (Tomsk State University, 2010).
