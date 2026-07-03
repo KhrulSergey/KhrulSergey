@@ -15,7 +15,7 @@ width="30">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=KhrulSergey&label=Profile%20views&color=0e75b6&style=flat" alt="KhrulSergey" /> </p>
 
-- ⛄ I’m currently a Gameplay Lead Engineer at [iLogos](https://ilogos.biz)
+- ⛄ I’m currently a Tech Lead at [FinTech & Gaming Lab]
 
 - 🌱 I got a **Master's degree in Economics And Math at Tomsk State University, RU**
 
