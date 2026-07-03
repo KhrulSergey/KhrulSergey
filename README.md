@@ -15,7 +15,7 @@ width="30">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=KhrulSergey&label=Profile%20views&color=0e75b6&style=flat" alt="KhrulSergey" /> </p>
 
-- ⛄ I’m currently a Tech Lead at [FinTech & Gaming Lab]
+- ⛄ I’m currently a Tech Lead at **FinTech & Gaming Lab**
 
 - 🌱 I got a **Master's degree in Economics And Math at Tomsk State University, RU**
 
@@ -29,7 +29,7 @@ width="30">
 <h3 align="left">Connect with me:</h3>
 <p align="left">
   <a href="https://t.me/khrulsa" target="blank" style="margin-right: 40px" >
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png" alt="https://t.me/khrulsa" height="40" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/960px-Telegram_logo.svg.png" alt="https://t.me/khrulsa" height="40" />
   </a>
   <a href="https://linkedin.com/in/khrulsergey/" target="blank">
     <img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/khrulsergey/" width="40" />
