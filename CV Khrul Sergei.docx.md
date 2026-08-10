@@ -1,57 +1,89 @@
-KHRUL SERGEI Chief Technology Officer (CTO) & Tech Lead Address: Kazakhstan, Astana; Phone: +7 700 815 8862 Email:
-siberianodis@gmail.com
-Portfolio: https://khrulsergey.github.io
+KHRUL **SERGEI**
 
-ABOUT
-Visionary engineering leader and hands-on CTO with 18+ years of experience delivering high-load, scalable, and secure systems across Web3, FinTech, and iGaming. Proven track record of bridging business objectives with technical execution: from driving R&D and securing strategic partnerships (Consensys, MetaMask), to rescuing failing projects through crisis management. Adept at scaling engineering teams (from 4 to 25+ FTEs), optimizing IT infrastructure, and architecting distributed systems capable of handling 10,000+ concurrent sessions and millions in daily trading volume.
+**TECHNICAL LEAD & RESEARCHER**
 
-CORE COMPETENCIES & SKILLS
-**Engineering Leadership: Technical Strategy & Roadmapping, Crisis Management, Team Building & Mentoring, Product Engineering, Vendor Management, Agile/Scrum.
-**Architecture: Microservices, High-Load & High-Frequency Trading (HFT) Systems, Event-Driven Architecture, Smart Contracts (Web3/DeFi), Data Engineering.
-**Core Tech Stack: Java (11-25), GoLang, TypeScript, C#, Solidity, React, Angular, React Native.
-**Data & Messaging: PostgreSQL, ClickHouse, Redis, Kafka, RedPanda, HazelCast.
-**DevOps & Infrastructure: AWS (EKS, EC2, Lambda), Kubernetes, Docker, CI/CD pipelines, Grafana, Prometheus.
+**Address: Kazakhstan, Astana; Phone: [\+7 700 815 8862](tel:%20+7%20700%20815%208862)**  
+**Email: [siberianodis@gmail.com](mailto:siberianodis@gmail.com); Portfolio: [https://khrulsergey.github.io](https://khrulsergey.github.io)**
 
-PROFESSIONAL EXPERIENCE
-**Tech Lead**, iGaming MMO (Freelance / B2B) | *2025 – Present*
-* **Main projects:** High-load MMO football game with WebGL support;
-* **Team Expansion & Lobbying:** Prepared comprehensive economic and technical justifications to secure approval from C-level executives and the client for two hiring rounds, successfully scaling the R&D department from 4 to 18 specialists.
-* **Business-to-Tech Alignment:** Acted as the crucial bridge between product stakeholders and engineering, translating business requirements (Figma, PRDs) into robust technical architectures and successfully executing 5 major product epics.
-* **High-Load Architecture:** Rescued a legacy monolith by migrating to Java 25 (Virtual Threads) and Hazelcast 5.6. Containerized the infrastructure to Kubernetes, optimizing throughput from 30 to **4,000 RPS** per instance and enabling **10,000+ concurrent user sessions** with near-zero downtime.
+**ABOUT**  
+Hi! I am a visionary engineering leader and CTO with 18+ years of experience delivering **high-load**, scalable, and **secure** systems across **Web3, FinTech, and iGaming**. I specialize in building resilient engineering organizations, establishing scalable production processes (Run & Innovate), and driving long-term technical strategy. Proven track record of bridging **business objectives** with technical execution: from securing strategic partnerships (Consensys, MetaMask) to designing distributed systems capable of handling 10,000+ concurrent sessions and millions in trading volume, all while maintaining high team retention and operational stability.
 
-**Acting CTO / Crisis Manager**, Gydde (Crypto / Web3 Startup) | *2024 – 2025*
-* **Main projects:** Gamified meme-token launchpad with ERC-4337 AO wallet integration; Crypto Educational Platform for Telegram Mini-App.
-* **Crisis Management & Recovery:** Successfully led platform rescue after a critical infrastructure and team loss. Coordinated a task force to reverse-engineer and decompile 5,000+ backend files from legacy Docker images, preventing data loss and migrating the platform to AWS within 4 days.
-* **Product Innovation (R&D):** Spearheaded the rapid prototyping of a Telegram Mini App with an integrated wallet and biometric-secured key storage. Managed the delivery of the Memetoken Launchpad to production within a strict 2-month timeline.
-* **Technical Strategy & Business Growth:** Formulated and executed the company's long-term technical vision and development strategy. This strategic alignment between engineering and business goals formed the core of the investment memorandum, ultimately securing the company's place in the **Consensys Scale Program** and achieving **MetaMask Alpha Partner** status.
-* **Anti-Cheat ML System:** Engineered an ML-driven fraud detection and anti-bot system, resulting in over 600 daily user bans.
+**SKILLS & OTHER**
 
-**Tech Lead**, Firmshift B.V / In-house DeFi Ecosystem | *2022 – 2025*
-* **Main projects:** Omnichain protocol on Cosmos SDK; Analytical platform for multichain DEX; HFT Trading bot for CEX-DEX arbitrage.
-* **Omnichain Protocol Turnaround (TVL $12M+):** Led the technical recovery and launch of a stalled cross-chain bridge on Cosmos SDK across 7+ networks with gas abstraction. Engineered core optimizations that reduced transaction costs to $0.30 and execution time to <10 seconds, driving strategic partnerships with the **Berachain** and **Polygon Foundations**.
-* **High-Performance Analytics:** As a solo developer, built a multichain analytical platform with a custom cross-chain indexer (5 networks, latency <30ms) from scratch in just 3 months. Integrated full support for TheGraph's GraphQL format, enabling seamless migration for partners from external indexers.
-* **HFT Trading Core Development:** Acted as Sole Architect to build an in-house AMM and CEX-DEX arbitrage platform, eliminating costly vendor lock-in. The system efficiently processed **$200,000+ in daily trading volume**.
-* **Risk Management & MEV:** Designed a Risk Engine with automated circuit breakers for high market volatility and implemented MEV-protected RPC integrations with dynamic slippage algorithms.
+* **Engineering Leadership**: Technical Strategy & Roadmapping, Team Building & Retention, SLA/SLO Management, FinOps, Tech Debt Mitigation, Agile/Scrum.
 
-**Technical Manager / Lead Full Stack Developer**, Leroy Merlin / Bergmann InfoTech | *2017 – 2022*
-* **Main projects:** Cyber-sports tournament arena with crypto accounting; SaaS platform for digital factoring; National-scale personal data management system; Web3 NFT-marketplace; Mobile e-commerce platform (React Native).
-* **Full-Stack & Mobile Development:** Hands-on architect and lead developer for web portals (React, Angular) and cross-platform mobile apps (React Native), ensuring seamless integration with microservice backends.
-* **Project Leadership:** Guided the end-to-end development of 10+ enterprise digital platforms (ranging from video analytics to FinTech factoring applications).
-* **Talent Acquisition:** Revolutionized the hiring pipeline, successfully recruiting over 20 developers and managing a cohesive, high-performing team of 25 engineers.
-* **Performance Optimization:** Achieved a 60% increase in big-data search speed across heterogeneous sources and modernized CI/CD workflows for large-scale distributed systems.
+* **Architecture**: Microservices, High-Load & HFT Systems, Event-Driven Architecture, Smart Contracts (Web3/DeFi), Data Engineering.
 
-**Software Engineer / Team Lead**, HUGHES Satellite Monitoring Center (US) | *2010 – 2017*
-* **Main projects:** Real-time public transport monitoring system; R&D for ARM-based hardware and software for autonomous vehicles.
-* **R&D Leadership & Grants:** Led advanced R&D projects in robotics and telecommunications, successfully winning and managing grants exceeding **$10M+**.
-* **Innovation & Accuracy:** Boosted GPS tracking accuracy by 50% using custom inertial-based algorithms and secured 3 software patents for autonomous vehicle technologies.
-* **Team Building & Mentorship:** Successfully delivered a cross-platform taxi-booking frontend (Java/Swift) by strategically distributing tasks among 3 part-time interns, ultimately securing full-time offers for the entire team.
+* **Core Tech Stack**: Java (11-25), GoLang, TypeScript, C\#, Solidity, React, Angular, React Native.
 
-**Software Engineer / Site Manager**, Private Companies (EU) | *2003 – 2004, 2008 – 2010*
-* **Main projects:** Turnstile-based access control systems (C++); Video streaming and web storage platform.
-* **System Maintenance & Optimization:** Maintained and optimized a turnstile access system (C++, SQL, PERCo devices).
-* **Feature Development & Monetization:** Achieved a 30% increase in monthly revenue by modifying and integrating new media content features into a web portal.
+* **Data & Messaging**: PostgreSQL, ClickHouse, MongoDB, Redis, Kafka, RedPanda, AWS SQS, HazelCast.
 
-EDUCATION & ACHIEVEMENTS
-**Education: Post-Graduate in Computer Engineering (Tomsk Polytechnic University, 2014); Master’s in Applied Mathematics (Tomsk State University, 2010).
-**Awards: Won a 2-year personal R&D grant; authored 17 scientific publications in Europe and Russia; holds 3 patents for software and algorithms.
-**Certifications: Blockchain Fundamentals (ChainLink), Advanced Solidity (cryptozombies.io), Self-Driving Car Engineer (Udacity).
+* **DevOps & Infrastructure**: AWS (EKS, EC2, Lambda) \+ Terraform, Kubernetes, Docker, Jenkins, Grafana, Prometheus.
+* **Frameworks**: Spring, Protobuf, Reactor, Swagger, Junit, Unigine, WPF, Selenium.
+
+**PROFESSIONAL EXPERIENCE**
+
+**Tech Lead,** Freelance / B2B (EU)	2025 \- present  
+*Main projects:* High-load MMO football game with WebGL support; Web3 Prediction Market for eSports.
+
+* *Web3 Prediction Market (Off-time R&D):* Architecting a decentralized prediction market platform for eSports, integrating smart contracts for transparent event resolution, automated odds calculation, and secure liquidity management.
+* *Team Operations & Retention:* Formed a sustainable engineering structure of cross-functional teams (18 specialists across Backend, Frontend, QA, DevOps), prioritizing talent development and maintaining a high team retention rate.
+* *Systemic Architecture Evolution:* Developed and executed a long-term technology roadmap. Orchestrated a seamless migration of a legacy monolith to Java 25 (Virtual Threads) and Hazelcast 5.6 without business interruption, securing system scalability up to **4,000 RPS** per instance and **10,000+ concurrent** sessions.
+* *Process & Quality (SLA):* Introduced operational regulations (SLA 99.99%), standardized code-review practices, and established planned tech debt mitigation processes, ensuring near-zero downtime on deployments.
+
+**CTO,** Gydde \- Web3 Startup (EU)	2024 – 2025  
+*Main projects:* 1\) Gamified meme-token launchpad with ERC-4337 AO wallet integration; 2\) Crypto Educational Platform for Telegram Mini-App.
+
+* *Disaster Recovery & Business Continuity:* Successfully guided the platform from a critical infrastructure loss to a stable production pipeline (Run & Innovate). Standardized DevOps practices (migrating to AWS) and eliminated key-person dependencies (Bus Factor > 2).
+* *Strategic Security & Operations:* Engineered an ML-driven fraud detection system (600+ daily bans) as a foundational security standard to ensure long-term platform integrity.
+* *Technical Strategy & Investment:* Formulated a 3-year technical vision and architectural documentation. This systemic alignment between engineering and business goals formed the core of the investment memorandum, securing a spot in the **Consensys Scale Program** and achieving **MetaMask Alpha Partner** status.
+
+**Tech Lead**, Firmshift B.V (EU)	2022 \- 2025  
+*Main projects:* 1\) Omnichain protocol on Cosmos SDK; 2\) Analytical platform for multichain DEX; 3\) HFT Trading bot for CEX-DEX arbitrage.
+
+* *Omnichain Protocol* (TVL $12M+): Led the technical recovery and launch of a stalled cross-chain bridge on Cosmos SDK across 7+ networks with gas abstraction. Engineered core optimizations that reduced transaction costs to $0.30 and execution time to \<10 seconds, driving strategic partnerships with the **Berachain** and Polygon Foundations.
+* *High-Performance Analytics:* As a solo developer, built a multichain analytical platform with a custom cross-chain indexer (5 networks, latency \<30ms) from scratch in just 3 months. Integrated full support for **TheGraph**'s GraphQL format, enabling seamless migration for partners from external indexers.
+* *HFT Trading Core Development:* Acted as Sole Architect to build an in-house AMM and CEX-DEX arbitrage platform, eliminating costly vendor lock-in. The system efficiently processed **$200k in daily trading volume**.
+* *Risk Management & MEV:* Designed a Risk Engine with automated circuit breakers for high market volatility and implemented MEV-protected RPC integrations with dynamic slippage algorithms.
+
+**Technical Manager / Lead Full Stack Developer**, Leroy Merlin / Bergmann InfoTech (FR/DE)	2017-2020  
+*Main projects:* 1\) Cyber-sports tournament arena with crypto accounting; 2\) SaaS platform for digital factoring; 3\) National-scale personal data management system; 4\) Web3 NFT-marketplace; 5\) Mobile e-commerce platform (React Native).
+
+* *Internal Growth & Delivery:* Managed the end-to-end lifecycle of 10+ enterprise digital platforms, ensuring alignment between overarching business strategies and technical execution.
+* *Talent Institution & Retention:* Transformed the hiring and onboarding pipeline, growing the department to 25 engineers. Implemented competency matrices and individual development plans (IDPs) to build a highly cohesive team with minimal turnover.
+* *Release Management & System Optimization:* Modernized CI/CD workflows and delivery standards, reducing Time-to-Market. Achieved a 60% increase in big-data search speed across heterogeneous sources, establishing long-term system stability.
+
+**Software Engineer ➔ Team Lead**, HUGHES Satellite Monitoring Center (US, RU)	2010 \- 2017  
+*Main projects:* 1\) Real-time public transport monitoring. 2\) R\&D for ARM-based HW and SW for autonomous vehicles.
+
+* *Institutional R\&D Operations*: Built sustainable R\&D processes over 7 years in robotics and telecommunications, managing the technical delivery of grants exceeding **$10M+**.
+* *Innovation Pipeline:* Systematized algorithmic improvements, boosting GPS tracking accuracy by 50% using custom inertial-based algorithms and securing 3 long-term software patents.
+* *Talent Pipeline & Mentorship:* Structured a sustainable internship-to-hire pipeline. Mentored interns through hands-on project delivery (cross-platform taxi-booking frontend), successfully transitioning the entire cohort into full-time engineering roles.
+
+**Software Engineer Intern, Content Manager**, Private Companies (RU)	2003 – 2004, 2008 \- 2010  
+*Main projects:* 1\) Turnstile-based access control systems. 2\) Video streaming and web storage platform.
+
+* *System Maintenance & Optimization:* Maintained and optimized a turnstile access system (C++, SQL, PERCo devices).
+* *Feature Development & Monetization*: Achieved a 30% increase in monthly revenue by modifying and integrating new media content features into a web portal.
+
+**EDUCATION**
+
+* **Tomsk Polytechnic University** (RU), Post-Graduate in Computer Engineering	2014
+
+Degree topic: Satellite monitoring system for autonomous transport
+
+* **Tomsk State University** (RU), Master’s degree in Applied Mathematics.	2010
+
+**ACHIEVEMENTS & CERTIFICATIONS**
+
+* Won personal state R\&D grant for 2 years
+* 17 publications in Europe and Russian journals
+
+* Blockchain Fundamentals by ChainLink
+* Solidity Smart Contract Guide by BitDegree
+
+* Advanced Solidity by cryptozombies.io
+* Learn Solidity with Space Doggo by BitDegree
+
+* Artificial Intelligence for Robotics by Udacity
+* Self-Driving Car Engineer Nanodegree by Udacity

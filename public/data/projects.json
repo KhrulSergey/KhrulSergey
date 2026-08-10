@@ -1,13 +1,12 @@
 [
   {
     "id": 43,
-    "name": "Multiplayer football game for browsers",
+    "name": "Browser-based multiplayer football game",
     "domain": "MMO Game, WebGL, Unity",
     "start_date": "04.2025",
     "finished_date": "present",
     "responsibilities": [
-      "TechLead",
-      "Senior Backend Developer"
+      "TechLead"
     ],
     "technologies": [
       "Java 25",
@@ -28,9 +27,9 @@
     ],
     "key_contributions": [
       "Architected and implemented server-side scaling solutions using Hazelcast 5.6 and Kubernetes to support 10,000 concurrent user sessions.",
-      "Rescued legacy codebase, migrating monolith to Java 21 and Virtual Threads, boosting throughput from 30 to 4,000 RPS.",
+      "Rescued a legacy codebase, migrating the monolith to Java 21 and Virtual Threads, which boosted throughput from 30 to 4,000 RPS.",
       "Secured approval from C-level executives and the client for two hiring rounds based on economic and technical justifications, scaling the R&D team from 4 to 18 specialists.",
-      "Implemented integration for multi-currency exchange with 3rd parties and built a real-time game monitoring pipeline."
+      "Implemented third-party integrations for multi-currency exchange and built a real-time game monitoring pipeline."
     ]
   },
   {
@@ -41,8 +40,6 @@
     "finished_date": "02.2025",
     "responsibilities": [
       "Acting CTO",
-      "Architect",
-      "TechLead",
       "Backend Developer"
     ],
     "technologies": [
@@ -59,7 +56,7 @@
       "ClickHouse",
       "Redis"
     ],
-    "status": "Functional MVP with incomplete feature",
+    "status": "Functional MVP with partial features",
     "supported_chains": [
       "Polygon",
       "Linea"
@@ -71,9 +68,9 @@
     ],
     "key_contributions": [
       "Led crisis recovery: reverse-engineered and decompiled 5,000+ backend files from Docker images, migrating the platform to AWS in 4 days.",
-      "Formulated long-term technical strategy and roadmap securing MetaMask Alpha Partner and Consensys Scale Program status.",
-      "Spearheaded rapid prototyping of Telegram Mini App with integrated wallet and biometric-secured key storage.",
-      "Developed an ML-driven training system (XGBoost4J, Micronaut, Redis) that autonomously bans 600+ bots daily."
+      "Formulated the long-term technical strategy and roadmap, securing MetaMask Alpha Partner and Consensys Scale Program status.",
+      "Spearheaded the rapid prototyping of a Telegram Mini App with an integrated wallet and biometric-secured key storage.",
+      "Developed an ML-driven anti-bot system (XGBoost4J, Micronaut, Redis) that autonomously bans 600+ bots daily."
     ]
   },
   {
@@ -95,7 +92,7 @@
       "ProtoBuf",
       "TypeScript"
     ],
-    "status": "Full functional v1. Frozen",
+    "status": "Fully functional v1. Frozen.",
     "supported_chains": [
       "Polygon",
       "Kava",
@@ -111,9 +108,9 @@
       "BOB chain"
     ],
     "key_contributions": [
-      "Led technical turnaround of stalled cross-chain bridge on Cosmos SDK (TVL $12M+), scaling to 7+ networks with gas abstraction.",
-      "Optimized cross-chain transactions to run under 10 seconds costing $0.30 per tx with native gas abstraction.",
-      "Negotiated and established partnerships with Berachain and Polygon Foundation for integration."
+      "Led the technical turnaround of a stalled cross-chain bridge on Cosmos SDK (TVL $12M+), scaling it to 7+ networks with gas abstraction.",
+      "Optimized cross-chain transactions to execute in under 10 seconds at a cost of $0.30 per transaction with native gas abstraction.",
+      "Negotiated and established partnerships with Berachain and the Polygon Foundation for integration."
     ]
   },
   {
@@ -145,15 +142,15 @@
       "EY Consulting"
     ],
     "key_contributions": [
-      "Self-developed",
-      "Established and deployed a fully functional L3 orbit node",
-      "Maximum native support for AWS services was integrated"
+      "Designed and built the entire platform independently as a sole developer.",
+      "Set up and deployed a fully functional L3 Orbit node.",
+      "Integrated comprehensive native support for AWS services to optimize system performance."
     ],
     "microservices_count": 5
   },
   {
     "id": 4,
-    "name": "HFT Trading bot for CEX-DEX arbitrage",
+    "name": "HFT Trading Bot for CEX-DEX arbitrage",
     "domain": "Trading, Arbitrage, Cryptocurrency, CEX, DEX",
     "finished_date": "10.2024",
     "start_date": "01.2022",
@@ -175,7 +172,7 @@
       "PostgreSQL",
       "InfluxDB"
     ],
-    "status": "Full functional v1",
+    "status": "Fully functional v1",
     "supported_chains": [
       "Polygon",
       "Cardano Milkomeda"
@@ -193,14 +190,14 @@
     ],
     "partnerships": null,
     "key_contributions": [
-      "Architected and developed in-house AMM and HFT arbitrage platform to replace third-party vendor, processing $200k+ daily volume.",
-      "Implemented run-time orderbook, risk engine with circuit breakers, MEV-protected RPCs, and dynamic slippage algorithms.",
+      "Architected and developed an in-house AMM and HFT arbitrage platform to replace a third-party vendor, processing over $200k in daily volume.",
+      "Implemented a real-time order book, a risk engine with circuit breakers, MEV-protected RPCs, and dynamic slippage algorithms.",
       "Open-sourced high-performance Java integration libraries for MEXC, Binance, and OKX with full WebSocket support."
     ]
   },
   {
     "id": 5,
-    "name": "Statistical platform for a multichain DEX",
+    "name": "Statistics platform for a multichain DEX",
     "domain": "Cryptocurrency, DEX, Statistics, Analytics",
     "finished_date": "08.2022",
     "start_date": "05.2022",
@@ -223,13 +220,13 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Architected and built a custom multichain blockchain events indexer (5 chains, latency <30ms) as a solo developer in 3 months.",
-      "Integrated full support for TheGraph's GraphQL format, enabling seamless migration for partners from external indexers."
+      "Architected and built a custom multichain blockchain event indexer (supporting 5 chains with <30ms latency) as a sole developer within 3 months.",
+      "Integrated full support for The Graph's GraphQL format, enabling partners to migrate seamlessly from external indexers."
     ]
   },
   {
     "id": 6,
-    "name": "Casual and tap-style games for Telegram MiniApps",
+    "name": "Casual and tap-style games for Telegram Mini Apps",
     "domain": "Gaming, Telegram Mini-Apps, Web3",
     "finished_date": "10.2024",
     "start_date": "05.2024",
@@ -250,9 +247,9 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "A new platform version, featuring self-claiming rewards enabled was successfully launched one month early.",
-      "Developed a mechanism for listening to on-chain events and tracking transactions across multiple EVM-based chains",
-      "An AI training system was engineered to autonomously track bots"
+      "Successfully launched a new platform version featuring self-claiming rewards one month ahead of schedule.",
+      "Developed a service to listen to on-chain events and track transactions across multiple EVM-compatible chains.",
+      "Engineered an AI-driven system to autonomously detect and track bots."
     ]
   },
   {
@@ -268,18 +265,18 @@
     "technologies": [
       "Java 11",
       "Spring",
-      "REST AP",
+      "REST API",
       "Swagger",
       "GraphQL client",
       "PostgreSQL"
     ],
     "link": "https://github.com/daopulse",
-    "status": "Functional v1. Frozen",
+    "status": "Functional v1. Frozen.",
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Self-developed",
-      "Developed mechanism for acquisition of financial and analytical data from heterogeneous sources"
+      "Developed the entire project independently as a sole developer.",
+      "Developed a data ingestion pipeline to aggregate financial and analytical data from heterogeneous sources."
     ]
   },
   {
@@ -289,7 +286,7 @@
     "finished_date": "11.2023",
     "start_date": "05.2023",
     "responsibilities": [
-      "Tech manager",
+      "Technical Manager",
       "Backend Developer"
     ],
     "technologies": [
@@ -305,7 +302,7 @@
       "PostgreSQL",
       "Redis"
     ],
-    "status": "Functional v1. Frozen",
+    "status": "Functional v1. Frozen.",
     "supported_chains": [
       "Stellar"
     ],
@@ -316,8 +313,8 @@
       "Boston Consulting Group"
     ],
     "key_contributions": [
-      "A microservice was engineered to ensure client compliance (KYC/KYB)",
-      "An architectural plan was engineered to modularize the payment platform"
+      "Engineered a compliance microservice to automate client KYC/KYB verification.",
+      "Designed the architecture to modularize and scale the payment platform."
     ],
     "microservices_count": 15
   },
@@ -335,7 +332,7 @@
       "Python",
       "REST API",
       "JavaSCAD",
-      "ML analysing",
+      "ML Analysis",
       "3D models converters",
       "Kafka",
       "PostgreSQL"
@@ -346,7 +343,7 @@
       "Government patent and trademark office"
     ],
     "key_contributions": [
-      "Developed mechanism to dynamically generate XML reports from 3D model metadata"
+      "Developed a service to dynamically generate XML reports from 3D model metadata."
     ],
     "microservices_count": 10
   },
@@ -367,12 +364,12 @@
       "Blockchain API",
       "PostgreSQL"
     ],
-    "status": "Functional MVP. Frozen",
+    "status": "Functional MVP. Frozen.",
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Self-developed",
-      "Universal GraphQL client was engineered to collect DEX project and token metrics"
+      "Designed and built the MVP independently as a sole developer.",
+      "Engineered a universal GraphQL client to aggregate project and token metrics across various DEXs."
     ]
   },
   {
@@ -399,7 +396,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Developed a mechanism for creating RWA tokens (delivery contracts) compliant with the EIP 1155 standard"
+      "Developed a smart contract mechanism to mint RWA tokens (delivery contracts) compliant with the ERC-1155 standard."
     ],
     "link": "http://flixbeton.com"
   },
@@ -426,14 +423,14 @@
       "PostgreSQL",
       "Metaplex"
     ],
-    "status": "Functional MVP. Frozen",
+    "status": "Functional MVP. Frozen.",
     "supported_chains": [
       "Solana"
     ],
     "partnerships": null,
     "key_contributions": [
-      "Self-developed",
-      "Created ML-enhanced universal algorithm to automate the production of high-quality, artifact-free NFT images"
+      "Designed and built the platform independently as a sole developer.",
+      "Created an ML-enhanced algorithm to automate the generation of high-quality, artifact-free NFT images."
     ]
   },
   {
@@ -467,9 +464,9 @@
     ],
     "partnerships": null,
     "key_contributions": [
-      "Self-developed",
-      "Developed a telemetry reception mechanism for online tournaments",
-      "With up to 200ms latency, the application delivered real-time statistics for 50 simultaneous online tournaments."
+      "Developed the platform independently as a sole developer.",
+      "Developed a telemetry ingestion system for tracking real-time tournament data.",
+      "Delivered real-time statistics for 50 simultaneous online tournaments with sub-200ms latency."
     ]
   },
   {
@@ -494,7 +491,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Implemented an optimized encoding mechanism and compressed the video data stream"
+      "Implemented an optimized encoding pipeline that significantly compressed video data streams."
     ],
     "microservices_count": 20
   },
@@ -518,7 +515,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Improved test coverage up to 90% for service."
+      "Boosted test coverage to 90% across all core microservices."
     ],
     "microservices_count": 7
   },
@@ -542,7 +539,7 @@
       "GraphQL client",
       "Swagger",
       "SonarLint",
-      "MongoDb",
+      "MongoDB",
       "PostgreSQL",
       "Jenkins"
     ],
@@ -552,7 +549,7 @@
       "Government ministries"
     ],
     "key_contributions": [
-      "Achieved a 60% increase in data search speed from multiple Data sources"
+      "Achieved a 60% increase in search speeds across multiple heterogeneous data sources."
     ]
   },
   {
@@ -580,8 +577,8 @@
       "Eastern European financial institution"
     ],
     "key_contributions": [
-      "Addressed over 100 bugs and TODOs from previous releases.",
-      "Improved test coverage by 40%."
+      "Resolved over 100 legacy bugs and technical debt items from previous releases.",
+      "Increased test coverage by 40%."
     ]
   },
   {
@@ -604,9 +601,9 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Self-developed",
-      "Refined the 3D country map model",
-      "Prepared interactive stand at the 'Expo 2020' international conference, that recorded 50,000 user interactions."
+      "Designed and built the interactive map independently as a sole developer.",
+      "Optimized and refined the 3D country map models.",
+      "Developed the interactive display for the 'Expo 2020' international conference, which recorded over 50,000 user interactions."
     ]
   },
   {
@@ -630,7 +627,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Successful Google Play verification has resulted in the application's listing in the marketplace."
+      "Successfully completed Google Play verification and listed the app on the Google Play Store."
     ]
   },
   {
@@ -640,11 +637,11 @@
     "finished_date": "12.2019",
     "start_date": "10.2018",
     "responsibilities": [
-      "Technical manager"
+      "Technical Manager"
     ],
     "technologies": [
       "PHP",
-      "Laravell",
+      "Laravel",
       "TypeScript",
       "REST API",
       "SOAP"
@@ -653,7 +650,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Сompelling platform presentation to district leadership resulted in a $1.2 million contract for platform adaptation with a neighboring district."
+      "Delivered a compelling platform presentation to district leadership, securing a $1.2M contract to adapt the platform for a neighboring district."
     ]
   },
   {
@@ -663,7 +660,7 @@
     "finished_date": "12.2019",
     "start_date": "04.2019",
     "responsibilities": [
-      "Technical manager",
+      "Technical Manager",
       "Architect"
     ],
     "technologies": [
@@ -679,7 +676,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "My platform concept secured victory in the tender competition, resulting in a $2 million contract award."
+      "Designed the winning platform concept for a tender competition, securing a $2M contract award."
     ]
   },
   {
@@ -689,7 +686,7 @@
     "finished_date": "12.2019",
     "start_date": "05.2019",
     "responsibilities": [
-      "Technical manager"
+      "Technical Manager"
     ],
     "technologies": [
       "PHP",
@@ -701,7 +698,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Due to the project's successful delivery 25% ahead of the planned timeline, the client approved an expansion of the contractual scope, adding $200k in additional tasks."
+      "Delivered the project 25% ahead of schedule, prompting the client to expand the contract scope by an additional $200k."
     ]
   },
   {
@@ -711,7 +708,7 @@
     "finished_date": "12.2019",
     "start_date": "10.2018",
     "responsibilities": [
-      "Technical manager"
+      "Technical Manager"
     ],
     "technologies": [
       "PHP",
@@ -724,7 +721,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Load tests confirmed the application's capacity to handle 300% the load following our optimization of indexing and caching for popular queries."
+      "Optimized indexing and caching for popular queries, enabling the application to handle 300% of the baseline load during performance testing."
     ]
   },
   {
@@ -734,7 +731,7 @@
     "finished_date": "12.2019",
     "start_date": "08.2019",
     "responsibilities": [
-      "Technical manager"
+      "Technical Manager"
     ],
     "technologies": [
       "PHP",
@@ -746,7 +743,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Workflow optimization for application submission and processing led to a 30% reduction in average application review time."
+      "Optimized the application submission and processing workflow, reducing the average review time by 30%."
     ]
   },
   {
@@ -756,7 +753,7 @@
     "finished_date": "01.2020",
     "start_date": "09.2019",
     "responsibilities": [
-      "Technical manager"
+      "Technical Manager"
     ],
     "technologies": [
       "PHP",
@@ -769,7 +766,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "By simplifying the report submission interface, we achieved a 45% decrease in the average time required for report submission."
+      "Redesigned and simplified the report submission interface, reducing the average completion time by 45%."
     ]
   },
   {
@@ -779,7 +776,7 @@
     "finished_date": "02.2020",
     "start_date": "09.2019",
     "responsibilities": [
-      "Technical manager"
+      "Technical Manager"
     ],
     "technologies": [
       "PHP",
@@ -794,8 +791,8 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "By integrating caching mechanisms, we significantly accelerated the indexing of new product records, resulting in a 3x speed improvement.",
-      "Enhanced search flexibility and expanded filter options while simultaneously improving search speed by 40%."
+      "Integrated caching mechanisms that accelerated the indexing of new product records by 3x.",
+      "Expanded search filters and flexibility while simultaneously improving query speeds by 40%."
     ]
   },
   {
@@ -805,7 +802,7 @@
     "finished_date": "02.2020",
     "start_date": "10.2018",
     "responsibilities": [
-      "Technical manager"
+      "Technical Manager"
     ],
     "technologies": [
       "JavaScript"
@@ -814,7 +811,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Depending on the project, new audience growth ranged from 40% to 80%, consistently driving up to 100k new daily users to the site."
+      "Drove audience growth by 40% to 80% across landing pages, attracting up to 100k daily active users."
     ]
   },
   {
@@ -837,10 +834,10 @@
     "status": "Functional v1.",
     "supported_chains": null,
     "partnerships": [
-      "Leroy Merlin headquartered"
+      "Leroy Merlin Headquartered"
     ],
     "key_contributions": [
-      "Following the successful production release of the first version, a $1M contract was signed for the development of the second iteration."
+      "Delivered the successful v1 release, securing a $1M contract for the development of the platform's second iteration."
     ]
   },
   {
@@ -850,7 +847,7 @@
     "finished_date": "07.2018",
     "start_date": "05.2018",
     "responsibilities": [
-      "Technical manager",
+      "Technical Manager",
       "Frontend Developer"
     ],
     "technologies": [
@@ -865,8 +862,8 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "The client's expenses for personal server maintenance and full-time software support were reduced by 50%.",
-      "A two-year backlog of portal modernization requests were implemented within a three-month project timeline."
+      "Reduced the client's server maintenance and software support costs by 50%.",
+      "Cleared a two-year backlog of portal modernization requests within a three-month timeline."
     ]
   },
   {
@@ -876,7 +873,7 @@
     "finished_date": "05.2018",
     "start_date": "03.2018",
     "responsibilities": [
-      "Technical manager"
+      "Technical Manager"
     ],
     "technologies": [
       "JavaScript",
@@ -887,7 +884,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "A shift to a component-based development strategy allowed us to complete the portal project 20 days early and reduce the client's budget by 40%."
+      "Transitioned to a component-based development strategy, completing the project 20 days ahead of schedule and saving 40% of the client's budget."
     ]
   },
   {
@@ -897,7 +894,7 @@
     "finished_date": "09.2018",
     "start_date": "04.2018",
     "responsibilities": [
-      "Technical manager"
+      "Technical Manager"
     ],
     "technologies": [
       "PHP",
@@ -911,7 +908,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "A contract extension and a 30% increase in project scope were achieved following negotiations with the customer concerning the previous team's deadline delay."
+      "Successfully resolved delays inherited from a previous team, negotiating a contract extension that expanded the project scope by 30%."
     ]
   },
   {
@@ -921,14 +918,14 @@
     "finished_date": "05.2018",
     "start_date": "10.2017",
     "responsibilities": [
-      "Technical manager",
-      "Technical writer",
+      "Technical Manager",
+      "Technical Writer",
       "Researcher"
     ],
     "technologies": [
       "Python",
       "ML",
-      "СNN with 1000 filters and 10 layers",
+      "CNN with 1000 filters and 10 layers",
       "ARM CPU based sources",
       "C++",
       "REST API",
@@ -938,7 +935,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Successful application was submitted to the multinational projects competition, resulting in a $2M contract for 2 years."
+      "Submitted a winning proposal to a multinational projects competition, securing a two-year, $2M contract."
     ]
   },
   {
@@ -948,8 +945,8 @@
     "finished_date": "08.2018",
     "start_date": "02.2018",
     "responsibilities": [
-      "Project manager",
-      "Technical writer"
+      "Project Manager",
+      "Technical Writer"
     ],
     "technologies": [
       "Matlab",
@@ -959,7 +956,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Developed a scientific justification for the proposed approach, leading to a $3M contract from the tender application."
+      "Authored the technical and scientific justification for the proposed approach, securing a $3M contract."
     ]
   },
   {
@@ -969,7 +966,7 @@
     "finished_date": "06.2017",
     "start_date": "02.2015",
     "responsibilities": [
-      "Technical manager",
+      "Technical Manager",
       "Researcher"
     ],
     "technologies": [
@@ -981,7 +978,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Successful application was submitted to the national projects competition, resulting in a grant award of $1.5M for five years."
+      "Authored a successful proposal for a national research competition, securing a $1.5M grant over five years."
     ],
     "microservices_count": 20,
     "team_composition": {
@@ -998,7 +995,7 @@
     "finished_date": "12.2016",
     "start_date": "06.2016",
     "responsibilities": [
-      "Marketing manager",
+      "Marketing Manager",
       "Frontend Developer"
     ],
     "technologies": [
@@ -1012,8 +1009,8 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "The nightclub's opening was accelerated by seven days, launching alongside a synchronized marketing blitz across radio, TV, internet, and word-of-mouth.",
-      "This strategic launch resulted in bookings filling a month in advance within the opening days."
+      "Accelerated the nightclub's opening by seven days, coordinating a synchronized marketing launch across radio, TV, digital, and print media.",
+      "Secured fully booked reservations a month in advance within the first few days of the launch."
     ]
   },
   {
@@ -1035,7 +1032,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "By optimally distributing team responsibilities, we completed software deployment and server setup three days ahead of schedule."
+      "Optimized team task distribution, completing software deployment and server configuration three days ahead of schedule."
     ]
   },
   {
@@ -1058,8 +1055,8 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Taxi route planning and adjustment time was reduced by 80%, automating the process and releasing the fleet manager from this responsibility.",
-      "The intern team, guided by my management, achieved project success and secured positions on the main staff."
+      "Reduced route planning and adjustment time by 80% through automation, freeing the fleet manager from manual scheduling.",
+      "Mentored a team of interns, leading them to project success and securing them full-time roles."
     ]
   },
   {
@@ -1081,8 +1078,8 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Time to issue and return a book has been reduced by 60%",
-      "Time to find the necessary book on the shelf has been reduced by 50%"
+      "Reduced book checkout and return times by 60%.",
+      "Reduced book search times by 50%."
     ]
   },
   {
@@ -1104,7 +1101,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "The accuracy of fire radius estimation improved by 35%."
+      "Improved fire radius estimation accuracy by 35%."
     ]
   },
   {
@@ -1127,8 +1124,8 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Developing algorithms to triangulate vehicle location and restore routes using satellite data and telemetry information. Accuracy improved up to 50%.",
-      "Adapting inertial-based location in caching algorithm for optimized performance on ARM-powered mobile terminals."
+      "Developed algorithms to triangulate vehicle locations and reconstruct routes using satellite and telemetry data, improving accuracy by 50%.",
+      "Optimized inertial positioning within the caching algorithm to enhance performance on ARM-powered mobile terminals."
     ]
   },
   {
@@ -1150,8 +1147,8 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "Stability of the turnstile system rose by 40%.",
-      "False/repeat ticket activations fell by 50%."
+      "Increased turnstile system stability by 40%.",
+      "Reduced false and duplicate ticket activations by 50%."
     ]
   },
   {
@@ -1162,7 +1159,7 @@
     "start_date": "02.2003",
     "responsibilities": [
       "Backend Developer",
-      "Content manager"
+      "Content Manager"
     ],
     "technologies": [
       "C++",
@@ -1174,7 +1171,7 @@
     "supported_chains": null,
     "partnerships": null,
     "key_contributions": [
-      "On-demand access requests generated about 30% increase in monthly revenue."
+      "Implemented an on-demand access model, driving a 30% increase in monthly recurring revenue."
     ]
   }
 ]
