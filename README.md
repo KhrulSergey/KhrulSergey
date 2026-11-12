@@ -19,7 +19,7 @@ width="30">
 
 - 🌱 I got a **Master's degree in Economics And Math at Tomsk State University, RU**
 
-- 💻 I strive for becoming a **skillful Technical Leader in developing Software products with thousands of users**
+- 💻 I strive for becoming a **skillful CTO & Engineering Leader in High-Load Systems & GameTech with millions of users**
 
 - 💬 Ask me about **Java, GO lang, C#, React, Web3, Blockchain, DeFi, Coding Principles, Software Design and Optimization,
   Software Testing and Management**
